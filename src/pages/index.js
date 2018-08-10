@@ -80,6 +80,7 @@ class IndexPage extends PureComponent {
             <h1>
               <b>ALL THE DETAILS</b>
             </h1>
+            <h2><b>September 22 - WACO, TX</b></h2>
             <h4>
               THAT DIDN'T LOOK GOOD ANYWHERE ELSE AND THAT YOU PROBABLY WON'T
               READ
