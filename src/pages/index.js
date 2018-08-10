@@ -283,7 +283,7 @@ class IndexPage extends PureComponent {
         <div className="random-monster__7">
           <img
             className="rellax"
-            data-rellax-speed="12"
+            data-rellax-speed="4"
             src={require('../layouts/images/2x/outline-six-bk@2x.png')}
           />
         </div>

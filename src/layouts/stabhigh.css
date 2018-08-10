@@ -520,6 +520,17 @@
     height: 100px;
   }
 
+  .random-monster__3 {
+    position: absolute;
+    opacity: 1;
+    bottom: 50px;
+    right: 100px;
+    transform: rotate(-2deg);
+    z-index: 1;
+  }
+  
+
+
   .random-monster__5 img {
     height: 100px;
   }
