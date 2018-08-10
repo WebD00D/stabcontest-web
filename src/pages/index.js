@@ -264,6 +264,30 @@ class IndexPage extends PureComponent {
           />
         </div>
 
+        <div className="random-monster__5">
+          <img
+            className="rellax"
+            data-rellax-speed="3"
+            src={require('../layouts/images/2x/outline-four-bk@2x.png')}
+          />
+        </div>
+
+        <div className="random-monster__6">
+          <img
+            className="rellax"
+            data-rellax-speed="3"
+            src={require('../layouts/images/2x/outline-five-bk@2x.png')}
+          />
+        </div>
+
+        <div className="random-monster__7">
+          <img
+            className="rellax"
+            data-rellax-speed="12"
+            src={require('../layouts/images/2x/outline-six-bk@2x.png')}
+          />
+        </div>
+
         <div className="list-container">
           <SectionItems />
         </div>
