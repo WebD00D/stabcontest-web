@@ -288,6 +288,7 @@
   right: -100px;
   transform: rotate(-15deg);
   z-index: 1;
+  display: none;
 }
 
 .random-monster__3 img {
