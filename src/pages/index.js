@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import Link from 'gatsby-link'
 
-import SectionItems from "../components/SectionItems";
+import SectionItems from '../components/SectionItems'
 
 import '../layouts/stabhigh.css'
 
@@ -12,6 +12,8 @@ class IndexPage extends PureComponent {
   constructor(props) {
     super(props)
 
+    this.handleMobileClick = this.handleMobileClick.bind(this)
+
     this.state = {
       showInfo: false,
       activeItem: '',
@@ -21,9 +23,25 @@ class IndexPage extends PureComponent {
     var rellax = new Rellax('.rellax')
   }
 
+  handleMobileClick() {
+    if (this.state.showInfo) {
+      this.setState({
+        showInfo: false,
+      })
+
+      // remove body overflow hidden
+      document.body.style.overflowY = ''
+    } else {
+      this.setState({
+        showInfo: true,
+      })
+
+      // set body to overflow hidden.
+      document.body.style.overflowY = 'hidden'
+    }
+  }
+
   render() {
-  
-  
     const fixedMenuClass = this.state.showInfo
       ? 'fixed-menu'
       : 'fixed-menu fixed-menu--hidden'
@@ -32,7 +50,7 @@ class IndexPage extends PureComponent {
       <div>
         <div
           onClick={() => {
-            this.setState({ showInfo: !this.state.showInfo })
+            this.handleMobileClick()
           }}
           className="sidebar-block--mobile"
         >
@@ -206,8 +224,6 @@ class IndexPage extends PureComponent {
                 </li>
                 <li>Landing (the cleaner the better)</li>
               </ul>
-
-       
             </p>
           </div>
         </div>
@@ -217,7 +233,7 @@ class IndexPage extends PureComponent {
         </a>
 
         <div className="hero">
-          <h1>SURFING'S ULTIMATE COMPETETIVE PLATFORM</h1>
+          <h1>SURFING'S ULTIMATE COMPETITIVE PLATFORM</h1>
           <h2>
             BY THAT WE MEAN: IT'S NOT <i>FUCKING BORING.</i>
           </h2>
@@ -240,7 +256,7 @@ class IndexPage extends PureComponent {
           />
         </div>
 
-         <div className="random-monster__4">
+        <div className="random-monster__4">
           <img
             className="rellax"
             data-rellax-speed="5"
@@ -248,10 +264,12 @@ class IndexPage extends PureComponent {
           />
         </div>
 
-        <div className="list-container"><SectionItems /></div>
+        <div className="list-container">
+          <SectionItems />
+        </div>
 
         <a href="#" className="buy-tickets-mobile">
-            BUY TICKETS
+          BUY TICKETS
         </a>
       </div>
     )
