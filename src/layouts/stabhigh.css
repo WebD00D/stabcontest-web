@@ -288,7 +288,7 @@
   right: -100px;
   transform: rotate(-15deg);
   z-index: 1;
-  display: none;
+ 
 }
 
 .random-monster__3 img {
@@ -326,7 +326,7 @@
 .random-monster__6 {
   position: absolute;
   opacity: 1;
-  bottom: -1400px;
+  bottom: -1600px;
   left: 400px;
   z-index: 1;
   transform: rotate(10deg);
@@ -531,6 +531,7 @@
     right: 200px;
     transform: rotate(-2deg);
     z-index: 1;
+    display: none;
   }
   
   .random-monster__5 img {
