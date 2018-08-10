@@ -409,6 +409,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+    background-attachment: initial;
   }
 
   .hero h1 {
@@ -497,4 +498,6 @@
     text-decoration: none;
     
   }
+
+  
 }
