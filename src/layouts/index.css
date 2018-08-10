@@ -10,6 +10,10 @@ body {
   background-color: #F5F5F5 !important;
 }
 
+.site-wrapper {
+  overflow-x: hidden;
+}
+
 
 /* FONTS */
 .fc-mono {
