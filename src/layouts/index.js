@@ -9,8 +9,7 @@ const Layout = ({ children, data }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Stab High is a world class surfing event in the heart of Texas.' }
       ]}
     />
     {children()}
