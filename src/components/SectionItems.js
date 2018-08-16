@@ -87,7 +87,6 @@ class SectionItems extends React.Component {
 
   render() {
     const sectionItems = sections.map((i, key) => {
-      console.log('section item', key)
 
       const contentClass =
         this.state.activeItem === i.title
