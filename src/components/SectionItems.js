@@ -5,6 +5,11 @@ import { Icon, Drawer } from 'antd'
 
 const sections = [
   {
+    title: 'Chippa Wilson',
+    meta: '30, Grafton, New South Wales',
+    content: `Christopher ‘Chippa’ Wilson is the most technically gifted aerialist in the world. The lynx-like Australian has both a deeper bag of tricks and a higher completion rate than just about anybody in the world, which is what makes Chippa the odds-on favorite to win Stab High.`,
+  },
+  {
     title: 'ALBEE LAYER',
     meta: '27, Haiku, Maui',
     content: `A bona fide aerial pioneer, Albee Layer is the first surfer ever to land both a double-alleyoop and a double-backside-air-reverse. At Stab High, he intends to add a few more novel tricks to that list (hint: watch for the judo alleyoop!)`,
@@ -33,11 +38,6 @@ const sections = [
     title: 'Jay Davies',
     meta: '31, Yallingup, Western Australia',
     content: `Physically speaking, Jay Davies is one of the biggest aerialists in the world. Despite being 6’1” and carved out of West Australian timber, Jay is incredibly flexible and can finesse a spin with the best. He can also consume more Texas BBQ than Dion, Craig, and Meola combined.`,
-  },
-  {
-    title: 'Chippa Wilson',
-    meta: '30, Grafton, New South Wales',
-    content: `Christopher ‘Chippa’ Wilson is the most technically gifted aerialist in the world. The lynx-like Australian has both a deeper bag of tricks and a higher completion rate than just about anybody in the world, which is what makes Chippa the odds-on favorite to win Stab High.`,
   },
   {
     title: 'Noa Deane',
