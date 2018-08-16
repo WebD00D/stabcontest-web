@@ -83,10 +83,7 @@ class IndexPage extends PureComponent {
             <h2>
               <b>September 22 - WACO, TX</b>
             </h2>
-            <h4>
-              THAT DIDN'T LOOK GOOD ANYWHERE ELSE AND THAT YOU PROBABLY WON'T
-              READ
-            </h4>
+            <img style={{width: "100%", marginTop: "22px"}} src={ require("../layouts/images/waco.jpg") } />
           </div>
 
           <div className="mb-50">
