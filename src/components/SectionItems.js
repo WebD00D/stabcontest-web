@@ -30,6 +30,11 @@ const sections = [
     content: `This human Q-tip has taken up full-time residence on the Lower Trestles left, giving Jett all the practice he needs for forehand punts. However the question remains whether Jett’s backhand will be primed for the excessive pop of the Waco ramp, which is likely to launch his scrawny frame into the mesosphere.`,
   },
   {
+    title: 'Mason Ho',
+    meta: '29, Sunset Beach, Oahu',
+    content: `Perhaps the most entertaining aerialist on the Stab High roster, Mason will likely attempt a handplant on the pool wall or shoot a non-existent tube on the takeoff. One might actually hope to see Mason lose before the final, if only to watch him attempt the wall jump in our Vans Acid Drop halftime show. `,
+  },
+  {
     title: 'Ian Crane',
     meta: '25, San Clemente, California',
     content: `It’s been said that Ian Crane’s knock-kneed approach is a trait of function and not fashion. According to the lore, Ian’s knees act as a catcher’s mitt for his oversized hog, ultimately blocking it from slapping across the water while he surfs. Despite that physical impediment, Ian proved his aerial worth when visiting Waco with Stab this May, nailing a wider variety of punts than any surfer in our crew. `,
