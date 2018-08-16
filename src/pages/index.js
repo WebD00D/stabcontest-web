@@ -254,7 +254,7 @@ class IndexPage extends PureComponent {
         </div>
 
         <a href="#" className="btn-primary hide-mobile">
-          BUY TICKETS
+           TICKETS ON SALE SOON
         </a>
 
         <div className="hero">
@@ -276,7 +276,8 @@ class IndexPage extends PureComponent {
         </div>
 
         <a href="#" className="buy-tickets-mobile">
-          BUY TICKETS
+        TICKETS ON SALE SOON
+
         </a>
       </div>
     )
