@@ -213,24 +213,6 @@ class IndexPage extends PureComponent {
             </p>
           </div>
 
-          <div className="mb-50">
-            {' '}
-            <h3>
-              <b>Vans Acid Drop!</b>
-            </h3>
-            <p>
-              Our halftime show equivalent will be unrecognizable from those
-              found at other sporting events. As wonderful as marching bands and
-              star-covered nipples may be, our halftime host Nathan Fletcher has
-              something far more sinister in mind – he wants all eliminated
-              surfers to jump off Waco’s 12-foot wall and attempt to land in the
-              wave’s hard-to-read transition.
-            </p>
-            <p>
-              The Van Acid Drop may (read: will) buckle joints but it is certain
-              to entertain.
-            </p>
-          </div>
 
           <div className="mb-50">
             {' '}
