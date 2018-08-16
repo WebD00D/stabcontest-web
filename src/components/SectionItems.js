@@ -20,11 +20,6 @@ const sections = [
     content: `A former air show competitor from the early 2000s, Dion Agius has built a career around his ability to take flight. The Tasmanian's small stature and compact stance will be an advantage at Waco, where high flights and soft landings are the recipe for big scores. After the skyscraper ‘oop he landed in Epokhe’s "Listen Now, Misty Dawn", Dion has to be a favorite for our $20k Big Air prize.`,
   },
   {
-    title: 'Seth Moniz',
-    meta: '20, Honolulu, Oahu',
-    content: `On his first trip to Waco this past May, Seth Moniz stomped what was, and still is, the best air ever landed in a wave pool. His unfathomably clean backflip sent the surfing world topsy turvy when it ruptured Instagram, and since then many pros have tried to replicate the move. While there have since been flips landed by Barron Mamiya, Eli Hanneman, and Noah Beschen, none have eclipsed Seth’s original gainer.`,
-  },
-  {
     title: 'Jett Schilling',
     meta: '15, San Clemente, California',
     content: `This human Q-tip has taken up full-time residence on the Lower Trestles left, giving Jett all the practice he needs for forehand punts. However the question remains whether Jett’s backhand will be primed for the excessive pop of the Waco ramp, which is likely to launch his scrawny frame into the mesosphere.`,
