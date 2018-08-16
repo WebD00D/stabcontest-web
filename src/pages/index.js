@@ -229,7 +229,7 @@ class IndexPage extends PureComponent {
               while our surfers kiss the stratosphere, enjoy chilled beverages
               at the heavily stocked pool bar, or feast on cuisine from our
               fleet of health-focused food trucks. The event will also feature
-              vibrant art exhibits, live music and a wild after-party, making
+              vibrant art exhibits, live music and a wild affter-party, making
               Stab High the ultimate way to bid summer adieu.{' '}
             </p>
           </div>

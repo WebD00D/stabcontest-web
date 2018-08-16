@@ -55,10 +55,10 @@ module.exports = props => {
           <img
             height="1"
             width="1"
-            style="display:none"
-            src="https://www.facebook.com/tr?id=1399799643410711&ev=PageView&noscript=1
+            style={{ display: 'none' }}
+            src={`https://www.facebook.com/tr?id=1399799643410711&ev=PageView&noscript=1
 https://www.facebook.com/tr?id=1399799643410711&ev=PageView&noscript=1
-"
+`}
           />
         </noscript>
       </head>
