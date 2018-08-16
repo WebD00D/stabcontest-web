@@ -45,7 +45,7 @@ const sections = [
     content: `The son of surfing royalty, Noa Deane has built a niche for himself in the world of non-compete aerial mastery. He’s landed a few of the biggest airs in the history of the sport, which can be attributed to his powerful thighs and general absence of fear. `,
   },
   {
-    title: 'Ethan Osborne',
+    title: 'Eithan Osborne',
     meta: '18, Ventura, California',
     content: `If he isn’t able to win on talent alone, Eithan Osborne will use his primordial power stance to shock competitors into submission. We wonder if this underground punter might whet a few palettes with his Reynolds-inspired flair.`,
   },
