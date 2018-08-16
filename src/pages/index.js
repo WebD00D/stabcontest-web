@@ -80,7 +80,9 @@ class IndexPage extends PureComponent {
             <h1>
               <b>ALL THE DETAILS</b>
             </h1>
-            <h2><b>September 22 - WACO, TX</b></h2>
+            <h2>
+              <b>September 22 - WACO, TX</b>
+            </h2>
             <h4>
               THAT DIDN'T LOOK GOOD ANYWHERE ELSE AND THAT YOU PROBABLY WON'T
               READ
@@ -93,14 +95,23 @@ class IndexPage extends PureComponent {
               <b>What is Stab High?</b>
             </h3>
             <p>
-              Stab High is surfing’s ultimate competitive platform. By that we
-              mean: it’s not fucking boring. Surfing events are mostly boring
-              even for core surfers. Fields of too many surfers, in an
-              unpredictable ocean that often serves few opportunities in a
-              scoring system that is very difficult for even surf enthusiasts to
-              follow, let alone the everyman. Even the Founders Cup, the recent
-              event in the KS wave pool, took surfing back two decades in a
-              format that essentially rewarded safety surfing.{' '}
+              Stab High is a world class surfing event in the heart of Texas.
+            </p>
+            <p>
+              {' '}
+              Despite the oxymoron, this middle-American location may just be
+              surfing’s ultimate competitive platform.{' '}
+            </p>
+            <p>
+              Some context: At Barefoot Ski Ranch in Waco, Texas, owner Stuart
+              Parsons installed the first full-sized American Wave Machines wave
+              pool. Professional surfer Cheyne Magnusson was hired to manage the
+              site and lead wavepool testing, which led to the creation of the
+              world’s greatest man-made air section. Stab High will gather 16 of
+              surfing’s premier aerialists in Waco, where over a live webcast
+              surfers like Chippa Wilson, Noa Deane, and Albee Layer will
+              attempt to land the biggest and most innovative aerials possible,
+              for a significant cash prize.
             </p>
           </div>
 
@@ -111,19 +122,9 @@ class IndexPage extends PureComponent {
             </h3>
             <p>
               Without the slightest whiff of hyperbole, the BSR wavepool is the
-              premiere performance wave in the world. Bar none. Surfers who
-              visited in with Stab for a trip in May said they hadn’t had a
-              section for an air as good as this pool provided in the past 12
-              months. Not one.
-            </p>
-            <p>
-              After creating what he considers the “world’s best” barefoot track
-              in Waco, Texas, Stuart Parsons realized he could expand his
-              Barefoot Ski Ranch by including facilities for other water sports.
-              Parsons then added a wakeboard cable park, a Lazy River, and the
-              Royal Flush (a mega-waterslide that launches users up to 30 feet
-              in the air) to his 500-acre lot, leaving just one final piece to
-              complete his bona fide water kingdom: a wavepool.
+              premiere performance wave in the world. Surfers who visited Stab
+              there in May said they hadn’t met an air section as good as this
+              pool provided in the past 12 months. Not one.
             </p>
           </div>
 
@@ -134,52 +135,32 @@ class IndexPage extends PureComponent {
             </h3>
             <p>
               <ul>
-                <li>There will be 16 surfers and 3 qualifying rounds</li>
+                <li>There will be 16 surfers in the preliminary round.</li>
                 <li>
-                  For each of Rounds 1-3, 48 rights will be surfed by all
-                  competitors in groups of four (with surfers alternating
-                  waves). After all 48 rights are completed (3 rights per
-                  competitor), 48 lefts will be surfed by the same groups.
-                </li>
-                <li>Group members will alternate after each round. </li>
-                <li>Live stream starts with Round 3.</li>
-                <li>
-                  After Round 3, each surfer counts the top 3 of their 18 total
-                  rides to go toward their qualifying score. Surfers MUST use at
-                  least one left and one right in their three-wave total.{' '}
+                  All surfers will receive four rights and four lefts, with the
+                  top right score and top left score counting toward the
+                  surfers’ two-wave totals.
                 </li>
                 <li>
-                  The six surfers with the highest three-wave totals will
-                  advance to the final round.{' '}
+                  The top eight two-wave totals from the preliminary round will
+                  advance to the Semi-finals*
+                </li>
+
+                <li>
+                  Semi-finalists will receive another four rights and four
+                  lefts, again counting their top right score and top left score
+                  toward their two-wave totals.
                 </li>
                 <li>
-                  Should two or more surfers tie in the qualifying round, there
-                  will be a surf-off between those competitors. In the surf-off,
-                  each surfer gets two waves of their directional preference.
-                  Top single score wins.{' '}
+                  The top four two-wave totals will advance to the finals*.
                 </li>
                 <li>
-                  Potential halftime show with the 10 disqualified surfers (see
-                  below for details)
+                  Finalists will receive four rights, four lefts, and one bonus
+                  wave of their directional preference.
                 </li>
                 <li>
-                  Final: 6 surfers x 11 waves apiece (5 rights + 5 lefts + 1
-                  you-choose-it){' '}
-                </li>
-                <li>
-                  {' '}
-                  Surfers will ride alternating waves in the order of which they
-                  qualified (6th qualifier goes first, 5th goes second, etc.).
-                  30 rights, then 30 lefts. Each surfer can choose the direction
-                  of their 11th wave.{' '}
-                </li>
-                <li>
-                  Each surfer’s top right and top left count toward their final
-                  score.
-                </li>
-                <li>
-                  Whichever surfer has the highest 2-wave total at the end of
-                  the final, wins.
+                  Whichever surfer has the highest two-wave total (using a right
+                  and a left) at the end of the final, wins.
                 </li>
               </ul>
             </p>
@@ -193,12 +174,12 @@ class IndexPage extends PureComponent {
             <p>
               <ul>
                 <li>
-                  Surfers will be scored from 0-100 on a static, event-wide
+                  Waves will be scored from 0 to 100 on a static, event-wide
                   scale (judges will be able to look back at past-completed airs
                   to keep their scoring consistent throughout the event).
                 </li>
                 <li>
-                  Only airs will be scored, turns/blowtails/club-sandwiches will
+                  Only airs will be scored. Turns/blowtails/club-sandwiches will
                   not count.
                 </li>
                 <li>
@@ -212,19 +193,62 @@ class IndexPage extends PureComponent {
                   we’ve set Seth Moniz’s backflip (currently the best air landed
                   at the Waco site) at a clean 80-pointer. Here’s what the airs
                   will be judged on:
+                  <ul>
+                    <li>
+                      Height (determined by the lowest part of board or body)
+                    </li>
+                    <li>
+                      Speed/Distance covered (has anybody cleared the whole
+                      section yet?)
+                    </li>
+                    <li>Style (if it looks good, it scores great)</li>
+                    <li>
+                      Progression and creativity (any weird grabs, tweaks,
+                      spins, rolls, and flips will be noted!)
+                    </li>
+                    <li>Landing (the cleaner, the better)</li>
+                  </ul>
                 </li>
-                <li>Height (determined by the lowest part of board or body)</li>
-                <li>
-                  Speed/Distance covered (has anybody cleared the whole section
-                  yet?)
-                </li>
-                <li>Style (if it looks good, it scores great)</li>
-                <li>
-                  Progression and creativity (any weird grabs, tweaks, spins,
-                  rolls, and flips will be noted!)
-                </li>
-                <li>Landing (the cleaner the better)</li>
               </ul>
+            </p>
+          </div>
+
+          <div className="mb-50">
+            {' '}
+            <h3>
+              <b>Vans Acid Drop!</b>
+            </h3>
+            <p>
+              Our halftime show equivalent will be unrecognizable from those
+              found at other sporting events. As wonderful as marching bands and
+              star-covered nipples may be, our halftime host Nathan Fletcher has
+              something far more sinister in mind – he wants all eliminated
+              surfers to jump off Waco’s 12-foot wall and attempt to land in the
+              wave’s hard-to-read transition.
+            </p>
+            <p>
+              The Van Acid Drop may (read: will) buckle joints but it is certain
+              to entertain.
+            </p>
+          </div>
+
+          <div className="mb-50">
+            {' '}
+            <h3>
+              <b>Beyond the surf.</b>
+            </h3>
+            <p>
+              Stab High isn’t just a surfing competition – it’s also an
+              end-of-summer-blowout, suitable for humans of all ages, interests,
+              and ideologies!
+            </p>
+            <p>
+              Stab High attendees are encouraged to wade in the shallow-end
+              while our surfers kiss the stratosphere, enjoy chilled beverages
+              at the heavily stocked pool bar, or feast on cuisine from our
+              fleet of health-focused food trucks. The event will also feature
+              vibrant art exhibits, live music and a wild after-party, making
+              Stab High the ultimate way to bid summer adieu.{' '}
             </p>
           </div>
         </div>
@@ -234,58 +258,16 @@ class IndexPage extends PureComponent {
         </a>
 
         <div className="hero">
-          <h1>SURFING'S ULTIMATE COMPETITIVE PLATFORM</h1>
-          <h2>
-            BY THAT WE MEAN: IT'S NOT <i>FUCKING BORING.</i>
-          </h2>
+          <img src={require('../layouts/images/01_title.png')} />
         </div>
 
         {/* RANDOM MONSTERS */}
-        <div className="random-monster__2">
-          <img
-            className="rellax"
-            data-rellax-speed="7"
-            src={require('../layouts/images/2x/outline_one-bk@2x.png')}
-          />
-        </div>
 
         <div className="random-monster__3">
           <img
             className="rellax"
             data-rellax-speed="11"
             src={require('../layouts/images/2x/outline_two-bk@2x.png')}
-          />
-        </div>
-
-        <div className="random-monster__4">
-          <img
-            className="rellax"
-            data-rellax-speed="2"
-            src={require('../layouts/images/2x/outline_three-bk@2x.png')}
-          />
-        </div>
-
-        <div className="random-monster__5">
-          <img
-            className="rellax"
-            data-rellax-speed="4"
-            src={require('../layouts/images/2x/outline-four-bk@2x.png')}
-          />
-        </div>
-
-        <div className="random-monster__6">
-          <img
-            className="rellax"
-            data-rellax-speed="3"
-            src={require('../layouts/images/2x/outline-five-bk@2x.png')}
-          />
-        </div>
-
-        <div className="random-monster__7">
-          <img
-            className="rellax"
-            data-rellax-speed="4"
-            src={require('../layouts/images/2x/outline-six-bk@2x.png')}
           />
         </div>
 
