@@ -83,7 +83,10 @@ class IndexPage extends PureComponent {
             <h2>
               <b>September 22 - WACO, TX</b>
             </h2>
-            <img style={{width: "100%", marginTop: "22px"}} src={ require("../layouts/images/waco.jpg") } />
+            <img
+              style={{ width: '100%', marginTop: '22px' }}
+              src={require('../layouts/images/waco.jpg')}
+            />
           </div>
 
           <div className="mb-50">
@@ -210,7 +213,6 @@ class IndexPage extends PureComponent {
             </p>
           </div>
 
-
           <div className="mb-50">
             {' '}
             <h3>
@@ -232,8 +234,11 @@ class IndexPage extends PureComponent {
           </div>
         </div>
 
-        <a href="#" className="btn-primary hide-mobile">
-           TICKETS ON SALE SOON
+        <a
+          href="https://www.eventbrite.com.au/e/stab-high-tickets-49200690590"
+          className="btn-primary hide-mobile"
+        >
+          TICKETS ON SALE
         </a>
 
         <div className="hero">
@@ -254,9 +259,11 @@ class IndexPage extends PureComponent {
           <SectionItems />
         </div>
 
-        <a href="#" className="buy-tickets-mobile">
-        TICKETS ON SALE SOON
-
+        <a
+          href="https://www.eventbrite.com.au/e/stab-high-tickets-49200690590"
+          className="buy-tickets-mobile"
+        >
+          TICKETS ON SALE
         </a>
       </div>
     )
