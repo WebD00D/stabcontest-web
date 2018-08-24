@@ -1,7 +1,7 @@
 .cta-bar {
   position: fixed;
   top: 0;
-  background-color: #dd9dc0;
+  background-color: #000;
   height: 60px;
   width: 100%;
   z-index: 4;
@@ -9,11 +9,12 @@
   overflow: hidden;
   display: flex;
   align-items: center;
+  color: #dd9dc0;
+  transition: .2s ease;
 }
 
 .cta-text {
   font-family: 'Roboto Mono', monospace;
-  color: #000;
   font-weight: bold;
   letter-spacing: 3px;
   width: 100%;
@@ -31,8 +32,13 @@
   transform: translate3d(0, 0, 0);
 }
 
-@media ( max-width: 600px) {
+.cta-bar:hover {
+  background-color: #dd9dc0;
+  color: #000;
+}
 
+
+@media ( max-width: 600px) {
   .cta-text {
     animation: slideshow linear 10s infinite;
     transform: translate3d(0, 0, 0);
