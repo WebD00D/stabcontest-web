@@ -12,6 +12,7 @@ body {
 
 .site-wrapper {
   overflow-x: hidden;
+  padding-top: 60px;
 }
 
 * {

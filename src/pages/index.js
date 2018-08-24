@@ -48,6 +48,25 @@ class IndexPage extends PureComponent {
 
     return (
       <div>
+        <a href="https://www.eventbrite.com.au/e/stab-high-tickets-49200690590">
+          <div className="cta-bar">
+            <div className="cta-text">
+              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
+              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
+              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
+              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
+              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
+              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
+              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
+              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
+              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
+              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
+              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
+              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
+              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
+            </div>
+          </div>
+        </a>
         <div
           onClick={() => {
             this.handleMobileClick()
