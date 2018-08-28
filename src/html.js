@@ -38,6 +38,23 @@ module.exports = props => {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.6.2/rellax.js" />
 
         <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-2006234-4"
+        />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-2006234-4');
+          `,
+          }}
+        />
+
+        <script
           dangerouslySetInnerHTML={{
             __html: `
             !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -63,7 +80,6 @@ https://www.facebook.com/tr?id=1399799643410711&ev=PageView&noscript=1
         </noscript>
       </head>
       <body className="sans-serif black">
-        
         <div className="site-wrapper">
           <div
             id="___gatsby"
