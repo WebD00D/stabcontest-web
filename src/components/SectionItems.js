@@ -68,12 +68,8 @@ const sections = [
     title: 'Eli Hanneman',
     meta: '15, Lahaina, Maui',
     content: `Eli Hanneman may be small, but that just makes his airs look bigger. At just 15 years old, Stab High’s token wunderkind has already landed a backflip in the Waco pool, making him a genuine threat against his older, more creaky-limbed competitors. Eli may be a longshot to win in Waco, but he’ll entertain with his silky rotations and youthful enthusiasm.`,
-  },
-  {
-    title: 'Hector Santamaria',
-    meta: '25, Aguadilla, Puerto Rico',
-    content: `Using the power of chi to fuel his quirky rotations, Hector Santamaria is the most eccentric aerialist we’ve ever seen. The Puerto Rican can pull flips on waves that hardly hit his shins and is more stoked on surfing than... well, anyone.`,
-  },
+  }
+ 
 ]
 
 class SectionItems extends React.Component {
