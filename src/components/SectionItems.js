@@ -68,6 +68,11 @@ const sections = [
     title: 'Eli Hanneman',
     meta: '15, Lahaina, Maui',
     content: `Eli Hanneman may be small, but that just makes his airs look bigger. At just 15 years old, Stab High’s token wunderkind has already landed a backflip in the Waco pool, making him a genuine threat against his older, more creaky-limbed competitors. Eli may be a longshot to win in Waco, but he’ll entertain with his silky rotations and youthful enthusiasm.`,
+  },
+  {
+    title: 'Kael Walsh',
+    meta: '19, Yallingup, West Aus',
+    content: `Kael Walsh moved from Perth to Yallingup at 12 years old and hasn't let up on launching inverted punts since. He's one of the younger competitors in the field, but also one with little regard for the consequences which come from throwing yourself into the flats.`,
   }
  
 ]
