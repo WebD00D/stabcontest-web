@@ -180,6 +180,8 @@
   .hero img {
     height: 100px;
   }
+
+  
 }
 
 .hero h1 {
@@ -429,16 +431,14 @@
 /* BUTTONS */
 
 .btn-primary {
-  height: 60px;
-  line-height: 60px;
+  height: 50px;
+  line-height: 50px;
   display: block;
-  position: fixed;
-  right: 60px;
-  top: 90px;
-  font-size: 18px;
+  
+  font-size: 14px;
   font-family: 'Roboto Mono', monospace;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   border: 2px solid #000;
   font-weight: 600;
   letter-spacing: 1px;
@@ -461,6 +461,17 @@
   -webkit-box-shadow: 0px 0px 0px -1px rgba(0, 0, 0, 1);
   -moz-box-shadow: 0px 0px 0px -1px rgba(0, 0, 0, 1);
   box-shadow: 0px 0px 0px -1px rgba(0, 0, 0, 1);
+}
+
+.btn-primary--option {
+  margin-left: 15px;
+}
+
+.btn-wrappers {
+  display: flex;
+  position: fixed;
+  right: 60px;
+  top: 90px;
 }
 
 @media (min-width: 901px) {
@@ -675,5 +686,9 @@
 @media (max-width: 700px) {
   .hero {
     height: 320px;
+  }
+
+  .fixed-menu {
+    padding-top: 100px;
   }
 }

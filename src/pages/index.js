@@ -253,12 +253,23 @@ class IndexPage extends PureComponent {
           </div>
         </div>
 
-        <a
-          href="https://www.eventbrite.com.au/e/stab-high-tickets-49200690590"
-          className="btn-primary hide-mobile"
-        >
-          TICKETS ON SALE
-        </a>
+        <div className="btn-wrappers">
+          <a
+            target="_blank"
+            href="https://stabmagazine.cleeng.com/stab-high-a-surf-contest-mostly-in-the-air/E976314967_US?_ga=2.24139570.963626054.1536793788-1585989039.1534795076"
+            className="btn-primary hide-mobile"
+          >
+            PAY PER VIEW TICKETS
+          </a>
+
+          <a
+            target="_blank"
+            href="https://www.eventbrite.com.au/e/stab-high-tickets-49200690590"
+            className="btn-primary btn-primary--option hide-mobile"
+          >
+            EVENT TICKETS
+          </a>
+        </div>
 
         <div className="hero">
           <img src={require('../layouts/images/01_title.png')} />
@@ -279,10 +290,19 @@ class IndexPage extends PureComponent {
         </div>
 
         <a
+          target="_blank"
           href="https://www.eventbrite.com.au/e/stab-high-tickets-49200690590"
           className="buy-tickets-mobile"
         >
-          TICKETS ON SALE
+          EVENT TICKETS
+        </a>
+        <a
+          target="_blank"
+          href="https://stabmagazine.cleeng.com/stab-high-a-surf-contest-mostly-in-the-air/E976314967_US?_ga=2.24139570.963626054.1536793788-1585989039.1534795076"
+          className="buy-tickets-mobile"
+          style={{ borderTop: '1px solid #fff' }}
+        >
+          PAY PER VIEW TICKETS
         </a>
       </div>
     )
