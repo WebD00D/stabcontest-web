@@ -251,6 +251,39 @@ class IndexPage extends PureComponent {
               Stab High the ultimate way to bid summer adieu.{' '}
             </p>
           </div>
+
+          <div className="mb-50">
+            {' '}
+            <h3>
+              <b>Attending the Event</b>
+            </h3>
+            <p>
+              Those tickets will get you access to:
+              <ul>
+                <li>Stab's air contest</li>
+                <li>
+                  A pass to all of BSR Cable Park’s features—the world’s largest
+                  Lazy River and the Royal Flush (a water slide/launch ramp
+                  unlike any you’ve ever seen)
+                </li>
+                <li>
+                  The after party featuring a live performance by Poolside;
+                </li>
+                <li>
+                  The after-after party featuring a to be announced DJ set;
+                </li>
+                <li> Drinks, food, libations and much much more.</li>
+              </ul>
+            </p>
+            <p>
+              Stab High attendees are encouraged to wade in the shallow-end
+              while our surfers kiss the stratosphere, enjoy chilled beverages
+              at the heavily stocked pool bar, or feast on cuisine from our
+              fleet of health-focused food trucks. The event will also feature
+              vibrant art exhibits, live music and a wild affter-party, making
+              Stab High the ultimate way to bid summer adieu.{' '}
+            </p>
+          </div>
         </div>
 
         <div className="btn-wrappers">
