@@ -115,11 +115,8 @@ class IndexPage extends PureComponent {
             </h3>
             <p>
               Stab High is a world class surfing event in the heart of Texas.
-            </p>
-            <p>
-              {' '}
               Despite the oxymoron, this middle-American location may just be
-              surfing’s ultimate competitive platform.{' '}
+              surfing’s ultimate competitive platform.
             </p>
             <p>
               Some context: At Barefoot Ski Ranch in Waco, Texas, owner Stuart
@@ -150,38 +147,97 @@ class IndexPage extends PureComponent {
           <div className="mb-50">
             {' '}
             <h3>
-              <b>Competition Breakdown</b>
+              <b>Here's what a ticket will get you</b>
+            </h3>
+            <p>
+              Access to Stab's air contest, starring 20 of the world’s best,
+              non-WSL owned, jumpers; a pass to all of BSR Cable Park’s
+              features—the world’s largest Lazy River and the Royal Flush (a
+              water slide/launch ramp unlike any you’ve ever seen); the after
+              party featuring a live performance by Poolside; the after-after
+              party featuring Reverberation Radio; drinks, food, libations and
+              much much more.
+            </p>
+          </div>
+
+          <div className="mb-50">
+            {' '}
+            <h3>
+              <b>Here's what you need to know (Competition Breakdown)</b>
             </h3>
             <p>
               <ul>
-                <li>There will be 16 surfers in the preliminary round.</li>
                 <li>
-                  All surfers will receive four rights and four lefts, with the
-                  top right score and top left score counting toward the
-                  surfers’ two-wave totals.
+                  The Broadcast will go live at 12:30 pm local time. As most of
+                  us don’t live in Texas, here’s how that translates to your
+                  areas:
                 </li>
                 <li>
-                  The top eight two-wave totals from the preliminary round will
-                  advance to the Semi-finals*
-                </li>
-
-                <li>
-                  Semi-finalists will receive another four rights and four
-                  lefts, again counting their top right score and top left score
-                  toward their two-wave totals.
+                  <i>EST. Saturday, September 22, 1.30pm</i>
                 </li>
                 <li>
-                  The top four two-wave totals will advance to the finals*.
+                  <i>PST. Saturday, September 22, 10.30am</i>
                 </li>
                 <li>
-                  Finalists will receive four rights, four lefts, and one bonus
-                  wave of their directional preference.
+                  <i>AEST. Sunday, September 23, 3.30am</i>
                 </li>
                 <li>
-                  Whichever surfer has the highest two-wave total (using a right
-                  and a left) at the end of the final, wins.
+                  <i>AWST. Sunday, September 23, 1.30am</i>
                 </li>
               </ul>
+            </p>
+            <p>
+              The Round One Qualifier will run from 12:45 - 2:40 pm and will be
+              available online free of charge. After that, you can pre-register
+              for Pay Per View here: $13.99USD on event day or early bird price
+              of $8.99USD. Round One will feature two lefts and two rights per
+              surfer.
+            </p>
+            <p>
+              The Round Two Qualifier will run from 2:45 - 4:40, and will once
+              again feature two lefts and two rights per surfer (20 surfers in
+              both Qualifiers).
+            </p>
+            <p>
+              From 4:53 - 5:20 there will be a bonus wave, each surfer choosing
+              a left or right of their choice. Two scores are held on to. One
+              right and one left.{' '}
+            </p>
+            <p>The top six surfers will be in the final.</p>
+            <p>
+              Prior to the final, we have a special event to be announced soon.
+              This will run from 5:25 - 5:50.
+            </p>
+            <p>At 6 pm (local time) the final round will kick off.</p>
+            <ul>
+              <li>
+                <i>EST. Saturday, September 22, 7pm</i>
+              </li>
+              <li>
+                <i>PST. Saturday, September 22, 5pm</i>
+              </li>
+              <li>
+                <i>AEST. Sunday, September 23, 10am</i>
+              </li>
+              <li>
+                <i>AWST. Sunday, September 23, 8am</i>
+              </li>
+            </ul>
+            <p>
+              In the final, four lefts and four rights will be ridden by each
+              surfer plus a bonus wave of choice. The best two scores (left +
+              right) will be taken into account to determine the winner.
+            </p>
+            <p>
+              After the final, we will be rewarding six spectators a lucky door
+              prize. They will be given a session in the pool with Shane Dorian
+              and Bobby Martinez.
+            </p>
+            <p>
+              Also, throughout the day, kids who want to ride the whitewash and
+              the reform will be allowed to do so. We’re working with the
+              lifeguards on what those final numbers look like, but we’ll be
+              sure to get the groms riding a few waves at very least.
             </p>
           </div>
 
@@ -252,38 +308,7 @@ class IndexPage extends PureComponent {
             </p>
           </div>
 
-          <div className="mb-50">
-            {' '}
-            <h3>
-              <b>Attending the Event</b>
-            </h3>
-            <p>
-              Those tickets will get you access to:
-              <ul>
-                <li>Stab's air contest</li>
-                <li>
-                  A pass to all of BSR Cable Park’s features—the world’s largest
-                  Lazy River and the Royal Flush (a water slide/launch ramp
-                  unlike any you’ve ever seen)
-                </li>
-                <li>
-                  The after party featuring a live performance by Poolside;
-                </li>
-                <li>
-                  The after-after party featuring a to be announced DJ set;
-                </li>
-                <li> Drinks, food, libations and much much more.</li>
-              </ul>
-            </p>
-            <p>
-              Stab High attendees are encouraged to wade in the shallow-end
-              while our surfers kiss the stratosphere, enjoy chilled beverages
-              at the heavily stocked pool bar, or feast on cuisine from our
-              fleet of health-focused food trucks. The event will also feature
-              vibrant art exhibits, live music and a wild affter-party, making
-              Stab High the ultimate way to bid summer adieu.{' '}
-            </p>
-          </div>
+          
         </div>
 
         <div className="btn-wrappers">
