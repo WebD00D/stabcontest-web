@@ -103,8 +103,8 @@ class IndexPage extends PureComponent {
               <b>September 22 - WACO, TX</b>
             </h2>
             <img
-              style={{ width: '100%', marginTop: '22px' }}
-              src={require('../layouts/images/waco.jpg')}
+              style={{ width: '100%', marginTop: '22px', border: "1px solid #f5f5f5" }}
+              src={require('../layouts/images/stabparty.png')}
             />
           </div>
 
@@ -311,6 +311,10 @@ class IndexPage extends PureComponent {
               There will be a following after-after party spun by various DJs to keep the vibes going well past our bedtimes on the lawn at BSR Cablepark.
             </p>
           </div>
+          <img
+              style={{ width: '100%', marginTop: '22px' }}
+              src={require('../layouts/images/waco.jpg')}
+            />
 
                     
         </div>
