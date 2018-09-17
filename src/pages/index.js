@@ -302,13 +302,17 @@ class IndexPage extends PureComponent {
               Stab High attendees are encouraged to wade in the shallow-end
               while our surfers kiss the stratosphere, enjoy chilled beverages
               at the heavily stocked pool bar, or feast on cuisine from our
-              fleet of health-focused food trucks. The event will also feature
-              vibrant art exhibits, live music and a wild affter-party, making
-              Stab High the ultimate way to bid summer adieu.{' '}
+              fleet of health-focused food trucks. 
+            </p>
+            <p>
+              After the competition ends, daytime disco group, Poolside will play a live show at sunset.
+            </p>
+            <p>
+              There will be a following after-after party spun by various DJs to keep the vibes going well past our bedtimes on the lawn at BSR Cablepark.
             </p>
           </div>
 
-          
+                    
         </div>
 
         <div className="btn-wrappers">
