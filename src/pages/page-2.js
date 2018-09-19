@@ -2,11 +2,14 @@ import React, { PureComponent } from 'react'
 import Link from 'gatsby-link'
 
 import SectionItems from '../components/SectionItems'
+import Results from '../components/Results'
 
 import '../layouts/stabhigh.css'
 
 import 'antd/dist/antd.css'
-import { Icon, Drawer } from 'antd'
+import { Icon, Drawer } from 'antd';
+
+import resultData from '../data/results.json';
 
 class ResultsPage extends PureComponent {
   constructor(props) {
@@ -45,6 +48,7 @@ class ResultsPage extends PureComponent {
     const fixedMenuClass = this.state.showInfo
       ? 'fixed-menu'
       : 'fixed-menu fixed-menu--hidden'
+
 
     return (
       <div>
@@ -317,15 +321,8 @@ class ResultsPage extends PureComponent {
         </div>
 
         <div className="btn-wrappers">
-          <a href="#event-results" className="btn-primary hide-mobile">
-            VIEW RESULTS
-          </a>
-
-          <a
-            href="#event-photos"
-            className="btn-primary btn-primary--option hide-mobile"
-          >
-            EVENT PHOTOS
+          <a href="https://stabmagazine.cleeng.com/vod/stab-high-vod/A617539948_US" className="btn-primary hide-mobile">
+            WATCH ON DEMAND
           </a>
         </div>
 
@@ -333,7 +330,6 @@ class ResultsPage extends PureComponent {
           <img src={require('../layouts/images/01_title.png')} />
         </div>
 
-        {/* RANDOM MONSTERS */}
 
         <div className="random-monster__3">
           <img
@@ -348,10 +344,20 @@ class ResultsPage extends PureComponent {
           id="event-results"
           style={{ backgroundColor: 'white' }}
         >
-          <div className="photos-wrap" >
-          
+          <div className="photos-wrap">
             <h3 className="headline-title">RESULTS</h3>
+            <p className="results-copy">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
 
+            <Results data={resultData[0]} />
+            <Results data={resultData[1]} />
           
           </div>
         </div>
@@ -362,8 +368,7 @@ class ResultsPage extends PureComponent {
           style={{ backgroundColor: 'white' }}
         >
           <div className="photos-wrap">
-
-              <h3 className="headline-title">EVENT PHOTOS</h3>
+            <h3 className="headline-title">EVENT PHOTOS</h3>
 
             <img
               className="event-photo"

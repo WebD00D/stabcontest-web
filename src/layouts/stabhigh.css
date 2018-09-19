@@ -37,6 +37,11 @@
   color: #000;
 }
 
+.results-copy {
+  font-family: 'Roboto Mono', monospace;
+  color: #000;
+}
+
 
 @media ( max-width: 600px) {
   .cta-text {
@@ -731,4 +736,123 @@
   font-family: 'Roboto Mono', monospace;
   font-size: 28px;
   font-weight: bold;
+}
+
+
+
+/* RESULTS COMPONENT..  */
+
+.results_wrap {
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+}
+
+.heat-wrap {
+
+}
+
+.heat-wrap__header {
+  background-color: #111;
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
+  padding: 12px;
+
+}
+
+.competitor {
+  display: flex;
+  border-bottom: 1px solid #111;
+  align-items: center;
+  justify-content: space-between;
+  color: #111;
+  font-family: 'Roboto Mono', monospace;
+  height: 80px;
+}
+
+.rounds {
+ display: flex;
+ height: 80px;
+}
+
+.round {
+  background-color: #f5f5f5;
+  border-left: 1px solid #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 12px;
+  border-bottom: 1px solid #111;
+}
+
+
+.score {
+  font-size: 18px;
+}
+
+.total {
+  background-color: #ccc;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-name {
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+.profile-name span {
+  color: #ccc;
+  font-size: 15px;
+}
+
+.profile-name small {
+  font-size: 10px;
+  color: #ccc;
+}
+
+.profile-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+@media ( max-width: 820px) {
+
+  .profile {
+    height: 90px;
+    width: 100%;
+  }
+
+  .competitor {
+    flex-direction: column;
+    height: auto;
+  
+  }
+
+  .rounds {
+    width: 100%;
+    justify-content: space-between;
+    height: 70px;
+  }
+
+  .round {
+    flex: 1;
+    border: 1px solid #111;
+  }
+
+  #event-results {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
 }

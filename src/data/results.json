@@ -1,0 +1,70 @@
+{
+  "0": {
+    "name": "Finals",
+    "surfers": [
+        { "name": "Noa Deane", "photo_title": "noa", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Chippa Wilson", "photo_title": "chippa", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Ian Crane", "photo_title": "ian", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Jay Davies", "photo_title": "jay", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Jett Schilling", "photo_title": "jett", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Dion Agius", "photo_title": "dion", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Matt Meola", "photo_title": "matt", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  }
+    ]
+  },
+  "1": {
+    "name": "Semi-Finals",
+    "surfers": [
+        { "name": "Albee Layer", "photo_title": "albee", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Creed McTaggart", "photo_title": "creed", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Blair Conklin", "photo_title": "blair", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Jake Vincent", "photo_title": "brendon", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Noah Beschen", "photo_title": "noah", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Kael Walsh", "photo_title": "kael", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Mason Ho", "photo_title": "mason", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Leif Engstrom", "photo_title": "leif", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Hector Santamaría", "photo_title": "hector", "location": "PR", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Eli Hanneman", "photo_title": "eli", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Brendon Gibbens", "photo_title": "brendon", "location": "ZA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Harry Bryant", "photo_title": "harry", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Eithan Osbourne", "photo_title": "eithan", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Noa Deane", "photo_title": "noa", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Chippa Wilson", "photo_title": "chippa", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Ian Crane", "photo_title": "ian", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Jay Davies", "photo_title": "jay", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Jett Schilling", "photo_title": "jett", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Dion Agius", "photo_title": "dion", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Matt Meola", "photo_title": "matt", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  }
+    ]
+  },
+  "2": {
+    "name": "Full List",
+    "surfers": [
+        { "name": "Albee Layer", "photo_title": "albee", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Creed McTaggart", "photo_title": "creed", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Blair Conklin", "photo_title": "blair", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Jake Vincent", "photo_title": "brendon", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Noah Beschen", "photo_title": "noah", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Kael Walsh", "photo_title": "kael", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Mason Ho", "photo_title": "mason", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Leif Engstrom", "photo_title": "leif", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Hector Santamaría", "photo_title": "hector", "location": "PR", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Eli Hanneman", "photo_title": "eli", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Brendon Gibbens", "photo_title": "brendon", "location": "ZA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Harry Bryant", "photo_title": "harry", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Eithan Osbourne", "photo_title": "eithan", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Noa Deane", "photo_title": "noa", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Chippa Wilson", "photo_title": "chippa", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Ian Crane", "photo_title": "ian", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Jay Davies", "photo_title": "jay", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Jett Schilling", "photo_title": "jett", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Dion Agius", "photo_title": "dion", "location": "AUS", "bestRight": 50, "bestLeft": 60, "total": 110  },
+        { "name": "Matt Meola", "photo_title": "matt", "location": "USA", "bestRight": 50, "bestLeft": 60, "total": 110  }
+    ]
+  }
+
+}
+
+
+
+
+
