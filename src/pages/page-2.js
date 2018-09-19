@@ -7,9 +7,9 @@ import Results from '../components/Results'
 import '../layouts/stabhigh.css'
 
 import 'antd/dist/antd.css'
-import { Icon, Drawer } from 'antd';
+import { Icon, Drawer } from 'antd'
 
-import resultData from '../data/results.json';
+import resultData from '../data/results.json'
 
 class ResultsPage extends PureComponent {
   constructor(props) {
@@ -49,25 +49,30 @@ class ResultsPage extends PureComponent {
       ? 'fixed-menu'
       : 'fixed-menu fixed-menu--hidden'
 
-
     return (
       <div>
         <a href="https://www.eventbrite.com.au/e/stab-high-tickets-49200690590">
           <div className="cta-bar">
             <div className="cta-text">
-              <div>CONGRATS TO THE STAB HIGH 2018 WINNER - ALBEE LAYER!</div>
-              <div>CONGRATS TO THE STAB HIGH 2018 WINNER - ALBEE LAYER!</div>
-              <div>CONGRATS TO THE STAB HIGH 2018 WINNER - ALBEE LAYER!</div>
-              <div>CONGRATS TO THE STAB HIGH 2018 WINNER - ALBEE LAYER!</div>
-              <div>CONGRATS TO THE STAB HIGH 2018 WINNER - ALBEE LAYER!</div>
-              <div>CONGRATS TO THE STAB HIGH 2018 WINNER - ALBEE LAYER!</div>
-              <div>CONGRATS TO THE STAB HIGH 2018 WINNER - ALBEE LAYER!</div>
-              <div>CONGRATS TO THE STAB HIGH 2018 WINNER - ALBEE LAYER!</div>
-              <div>CONGRATS TO THE STAB HIGH 2018 WINNER - ALBEE LAYER!</div>
-              <div>CONGRATS TO THE STAB HIGH 2018 WINNER - ALBEE LAYER!</div>
-              <div>CONGRATS TO THE STAB HIGH 2018 WINNER - ALBEE LAYER!</div>
-              <div>CONGRATS TO THE STAB HIGH 2018 WINNER - ALBEE LAYER!</div>
-              <div>CONGRATS TO THE STAB HIGH 2018 WINNER - ALBEE LAYER!</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+              <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
+
             </div>
           </div>
         </a>
@@ -321,7 +326,10 @@ class ResultsPage extends PureComponent {
         </div>
 
         <div className="btn-wrappers">
-          <a href="https://stabmagazine.cleeng.com/vod/stab-high-vod/A617539948_US" className="btn-primary hide-mobile">
+          <a
+            href="https://stabmagazine.cleeng.com/vod/stab-high-vod/A617539948_US"
+            className="btn-primary hide-mobile"
+          >
             WATCH ON DEMAND
           </a>
         </div>
@@ -329,7 +337,6 @@ class ResultsPage extends PureComponent {
         <div className="hero">
           <img src={require('../layouts/images/01_title.png')} />
         </div>
-
 
         <div className="random-monster__3">
           <img
@@ -358,7 +365,6 @@ class ResultsPage extends PureComponent {
 
             <Results data={resultData[0]} />
             <Results data={resultData[1]} />
-          
           </div>
         </div>
 
