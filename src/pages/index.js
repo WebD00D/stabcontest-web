@@ -103,7 +103,11 @@ class IndexPage extends PureComponent {
               <b>September 22 - WACO, TX</b>
             </h2>
             <img
-              style={{ width: '100%', marginTop: '22px', border: "1px solid #f5f5f5" }}
+              style={{
+                width: '100%',
+                marginTop: '22px',
+                border: '1px solid #f5f5f5',
+              }}
               src={require('../layouts/images/stabparty.png')}
             />
           </div>
@@ -302,21 +306,22 @@ class IndexPage extends PureComponent {
               Stab High attendees are encouraged to wade in the shallow-end
               while our surfers kiss the stratosphere, enjoy chilled beverages
               at the heavily stocked pool bar, or feast on cuisine from our
-              fleet of health-focused food trucks. 
+              fleet of health-focused food trucks.
             </p>
             <p>
-              After the competition ends, daytime disco group, Poolside will play a live show at sunset.
+              After the competition ends, daytime disco group, Poolside will
+              play a live show at sunset.
             </p>
             <p>
-              There will be a following after-after party spun by various DJs to keep the vibes going well past our bedtimes on the lawn at BSR Cablepark.
+              There will be a following after-after party spun by various DJs to
+              keep the vibes going well past our bedtimes on the lawn at BSR
+              Cablepark.
             </p>
           </div>
           <img
-              style={{ width: '100%', marginTop: '22px' }}
-              src={require('../layouts/images/waco.jpg')}
-            />
-
-                    
+            style={{ width: '100%', marginTop: '22px' }}
+            src={require('../layouts/images/waco.jpg')}
+          />
         </div>
 
         <div className="btn-wrappers">
@@ -349,6 +354,25 @@ class IndexPage extends PureComponent {
             data-rellax-speed="11"
             src={require('../layouts/images/2x/outline_two-bk@2x.png')}
           />
+        </div>
+
+        <div
+          className="list-container"
+          id="event-results"
+          style={{ backgroundColor: 'white' }}
+        >
+          <div className="photos-wrap">
+            <h3 className="headline-title">LIVE SCORING</h3>
+            <div class="resp-container">
+              <iframe
+                class="resp-iframe"
+                src="https://s3-us-west-2.amazonaws.com/bsview/index.html?event=stab1010180922b"
+                gesture="media"
+                allow="encrypted-media"
+                allowfullscreen
+              />
+            </div>
+          </div>
         </div>
 
         <div className="list-container">

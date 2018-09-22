@@ -854,5 +854,24 @@
     padding-bottom: 50px;
   }
 
-
 }
+
+.resp-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+
+iframe {
+  width: 100%;
+  height: 550px;
+  border: none;
+}
+
+/* IFRAME OVERWRITES */
+
+#content_header_title {
+  font-family: 'Roboto Mono', monospace;
+}
+

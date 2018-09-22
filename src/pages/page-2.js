@@ -72,7 +72,6 @@ class ResultsPage extends PureComponent {
               <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
               <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
               <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
-
             </div>
           </div>
         </a>
