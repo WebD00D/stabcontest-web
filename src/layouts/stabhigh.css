@@ -709,6 +709,7 @@
 .photos-wrap {
   padding-left: 60px;
   padding-right: 60px;
+  padding-bottom: 40px;
 }
 
 @media ( max-width: 700px ) {
@@ -723,12 +724,12 @@
 .event-photo {
   width: 100%;
   height: auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 #event-results {
   padding-top:100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .headline-title {
@@ -875,3 +876,11 @@ iframe {
   font-family: 'Roboto Mono', monospace;
 }
 
+
+.photo-caption {
+  text-align: center;
+  color: #000;
+  font-family: 'Roboto Mono', monospace;
+  margin-bottom: 50px;
+
+}

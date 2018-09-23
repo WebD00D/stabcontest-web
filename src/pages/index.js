@@ -2,13 +2,16 @@ import React, { PureComponent } from 'react'
 import Link from 'gatsby-link'
 
 import SectionItems from '../components/SectionItems'
+import Results from '../components/Results'
 
 import '../layouts/stabhigh.css'
 
 import 'antd/dist/antd.css'
 import { Icon, Drawer } from 'antd'
 
-class IndexPage extends PureComponent {
+import resultData from '../data/results.json'
+
+class ResultsPage extends PureComponent {
   constructor(props) {
     super(props)
 
@@ -48,25 +51,74 @@ class IndexPage extends PureComponent {
 
     return (
       <div>
-        <a href="https://www.eventbrite.com.au/e/stab-high-tickets-49200690590">
-          <div className="cta-bar">
-            <div className="cta-text">
-              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
-              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
-              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
-              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
-              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
-              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
-              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
-              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
-              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
-              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
-              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
-              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
-              <div>TICKETS ON SALE NOW - CLICK HERE TO PURCHASE</div>
+        <div className="cta-bar">
+          <div className="cta-text">
+            <div>
+              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
+              DEAN!
+            </div>
+            <div>
+              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
+              DEAN!
+            </div>
+            <div>
+              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
+              DEAN!
+            </div>
+            <div>
+              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
+              DEAN!
+            </div>
+            <div>
+              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
+              DEAN!
+            </div>
+            <div>
+              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
+              DEAN!
+            </div>
+            <div>
+              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
+              DEAN!
+            </div>
+            <div>
+              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
+              DEAN!
+            </div>
+            <div>
+              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
+              DEAN!
+            </div>
+            <div>
+              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
+              DEAN!
+            </div>
+            <div>
+              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
+              DEAN!
+            </div>
+            <div>
+              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
+              DEAN!
+            </div>
+            <div>
+              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
+              DEAN!
+            </div>
+            <div>
+              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
+              DEAN!
+            </div>
+            <div>
+              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
+              DEAN!
+            </div>
+            <div>
+              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
+              DEAN!
             </div>
           </div>
-        </a>
+        </div>
         <div
           onClick={() => {
             this.handleMobileClick()
@@ -75,7 +127,6 @@ class IndexPage extends PureComponent {
         >
           <i className="fa fa-bars" />
         </div>
-
         <div className="sidebar">
           <div
             onClick={() => {
@@ -93,7 +144,6 @@ class IndexPage extends PureComponent {
             <img src={require('../layouts/images/_date.png')} />
           </div>
         </div>
-
         <div className={fixedMenuClass}>
           <div className="mb-50">
             <h1>
@@ -103,12 +153,8 @@ class IndexPage extends PureComponent {
               <b>September 22 - WACO, TX</b>
             </h2>
             <img
-              style={{
-                width: '100%',
-                marginTop: '22px',
-                border: '1px solid #f5f5f5',
-              }}
-              src={require('../layouts/images/stabparty.png')}
+              style={{ width: '100%', marginTop: '22px' }}
+              src={require('../layouts/images/waco.jpg')}
             />
           </div>
 
@@ -318,67 +364,110 @@ class IndexPage extends PureComponent {
               Cablepark.
             </p>
           </div>
-          <img
-            style={{ width: '100%', marginTop: '22px' }}
-            src={require('../layouts/images/waco.jpg')}
-          />
         </div>
-
         <div className="btn-wrappers">
           <a
-            target="_blank"
-            href="https://stabmagazine.cleeng.com/stab-high-a-surf-contest-mostly-in-the-air/E976314967_US?_ga=2.24139570.963626054.1536793788-1585989039.1534795076"
+            href="https://stabmagazine.cleeng.com/vod/stab-high-vod/A617539948_US"
             className="btn-primary hide-mobile"
           >
-            PAY PER VIEW TICKETS
-          </a>
-
-          <a
-            target="_blank"
-            href="https://www.eventbrite.com.au/e/stab-high-tickets-49200690590"
-            className="btn-primary btn-primary--option hide-mobile"
-          >
-            EVENT TICKETS
+            WATCH ON DEMAND
           </a>
         </div>
-
         <div className="hero">
           <img src={require('../layouts/images/01_title.png')} />
         </div>
-
-        {/* RANDOM MONSTERS */}
-
         <div className="random-monster__3">
           <img
             className="rellax"
             data-rellax-speed="11"
             src={require('../layouts/images/2x/outline_two-bk@2x.png')}
           />
-        </div>
-
+        </div>ya
         <div
           className="list-container"
           id="event-results"
           style={{ backgroundColor: 'white' }}
         >
           <div className="photos-wrap">
-            <h3 className="headline-title">LIVE SCORING</h3>
-            <div class="resp-container">
-              <iframe
-                class="resp-iframe"
-                src="https://s3-us-west-2.amazonaws.com/bsview/index.html?event=stab1010180922b"
-                gesture="media"
-                allow="encrypted-media"
-                allowfullscreen
-              />
-            </div>
+            <h3 className="headline-title">FINAL RESULTS</h3>
+            <p className="results-copy">
+              From Round One to the Finals, the maneuvers progressed. It was a
+              very different type of surf event. People lined the wall above the
+              wave. Kids rode and played in the whitewash on the inside. There
+              were cheers and laughs and hoots and hollers. And the six best
+              surfers entered in to the final.
+            </p>
+
+            <Results data={resultData[0]} />
+            {/* <Results data={resultData[1]} /> */}
           </div>
         </div>
+        <div
+          className="list-container"
+          id="event-photos"
+          style={{ backgroundColor: 'white' }}
+        >
+          <div className="photos-wrap">
+            <h3 className="headline-title">EVENT PHOTOS</h3>
 
+            <img
+              className="event-photo"
+              src={require('../layouts/images/event/Noa.jpg')}
+            />
+            <p className="photo-caption">
+              1st place and $20k to the event winner Noa Deane.
+            </p>
+
+              <img
+              className="event-photo"
+              src={require('../layouts/images/event/MasonHo.jpg')}
+            />
+            <p className="photo-caption">
+            Mason Ho wins the award for best air shot we've ever seen.
+</p>
+
+            <img
+              className="event-photo"
+              src={require('../layouts/images/event/Eli.jpg')}
+            />
+            <p className="photo-caption">
+              3rd place, 15 year old Eli Hanneman with the lunch money launch.{' '}
+            </p>
+
+            <img
+              className="event-photo"
+              src={require('../layouts/images/event/Ian.jpg')}
+            />
+            <p className="photo-caption">
+              6th place Ian Crane and the electric spray.
+            </p>
+
+            <img
+              className="event-photo"
+              src={require('../layouts/images/event/Ian.jpg')}
+            />
+            <p className="photo-caption">
+              Eithan Osborne won $20k for this air.
+            </p>
+
+            <img
+              className="event-photo"
+              src={require('../layouts/images/event/Crane2.jpg')}
+            />
+            <p className="photo-caption">Crane doing the Crane.</p>
+
+            <img
+              className="event-photo"
+              src={require('../layouts/images/event/Eli2.jpg')}
+            />
+            <p className="photo-caption">
+              Eli Hanneman with another twirly whirly.
+            </p>
+          </div>
+        </div>
         <div className="list-container">
           <SectionItems />
         </div>
-
         <a
           target="_blank"
           href="https://www.eventbrite.com.au/e/stab-high-tickets-49200690590"
@@ -399,4 +488,4 @@ class IndexPage extends PureComponent {
   }
 }
 
-export default IndexPage
+export default ResultsPage

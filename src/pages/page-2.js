@@ -51,7 +51,6 @@ class ResultsPage extends PureComponent {
 
     return (
       <div>
-        <a href="https://www.eventbrite.com.au/e/stab-high-tickets-49200690590">
           <div className="cta-bar">
             <div className="cta-text">
               <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
@@ -74,7 +73,6 @@ class ResultsPage extends PureComponent {
               <div>HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS ...</div>
             </div>
           </div>
-        </a>
         <div
           onClick={() => {
             this.handleMobileClick()
@@ -343,7 +341,7 @@ class ResultsPage extends PureComponent {
             data-rellax-speed="11"
             src={require('../layouts/images/2x/outline_two-bk@2x.png')}
           />
-        </div>
+        </div>ya
 
         <div
           className="list-container"
@@ -351,7 +349,7 @@ class ResultsPage extends PureComponent {
           style={{ backgroundColor: 'white' }}
         >
           <div className="photos-wrap">
-            <h3 className="headline-title">RESULTS</h3>
+            <h3 className="headline-title">FINAL RESULTS</h3>
             <p className="results-copy">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -363,7 +361,7 @@ class ResultsPage extends PureComponent {
             </p>
 
             <Results data={resultData[0]} />
-            <Results data={resultData[1]} />
+            {/* <Results data={resultData[1]} /> */}
           </div>
         </div>
 
@@ -374,7 +372,6 @@ class ResultsPage extends PureComponent {
         >
           <div className="photos-wrap">
             <h3 className="headline-title">EVENT PHOTOS</h3>
-
             <img
               className="event-photo"
               src={require('../layouts/images/event/waco.jpg')}
