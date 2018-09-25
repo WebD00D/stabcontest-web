@@ -418,6 +418,14 @@ class ResultsPage extends PureComponent {
               1st place and $20k to the event winner Noa Deane.
             </p>
 
+            <img
+              className="event-photo"
+              src={require('../layouts/images/event/EithanPhotoAir.jpg')}
+            />
+            <p className="photo-caption">
+              Eithan Osborne won $20k for this air.
+            </p>
+
               <img
               className="event-photo"
               src={require('../layouts/images/event/MasonHo.jpg')}
@@ -442,13 +450,7 @@ class ResultsPage extends PureComponent {
               6th place Ian Crane and the electric spray.
             </p>
 
-            <img
-              className="event-photo"
-              src={require('../layouts/images/event/Ian.jpg')}
-            />
-            <p className="photo-caption">
-              Eithan Osborne won $20k for this air.
-            </p>
+
 
             <img
               className="event-photo"
