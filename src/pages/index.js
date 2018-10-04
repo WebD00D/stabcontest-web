@@ -55,67 +55,67 @@ class ResultsPage extends PureComponent {
           <div className="cta-text">
             <div>
               HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEAN!
+              DEANE!
             </div>
             <div>
               HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEAN!
+              DEANE!
             </div>
             <div>
               HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEAN!
+              DEANE!
             </div>
             <div>
               HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEAN!
+              DEANE!
             </div>
             <div>
               HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEAN!
+              DEANE!
             </div>
             <div>
               HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEAN!
+              DEANE!
             </div>
             <div>
               HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEAN!
+              DEANE!
             </div>
             <div>
               HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEAN!
+              DEANE!
             </div>
             <div>
               HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEAN!
+              DEANE!
             </div>
             <div>
               HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEAN!
+              DEANE!
             </div>
             <div>
               HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEAN!
+              DEANE!
             </div>
             <div>
               HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEAN!
+              DEANE!
             </div>
             <div>
               HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEAN!
+              DEANE!
             </div>
             <div>
               HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEAN!
+              DEANE!
             </div>
             <div>
               HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEAN!
+              DEANE!
             </div>
             <div>
               HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEAN!
+              DEANE!
             </div>
           </div>
         </div>
