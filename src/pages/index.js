@@ -51,7 +51,7 @@ class ResultsPage extends PureComponent {
 
     return (
       <div>
-        <a href="#" className="cta-bar">
+        <a href="https://www.eventbrite.com.au/e/stab-high-an-invitational-world-class-surfing-event-in-texas-tickets-59865637734" className="cta-bar">
           <div className="cta-text">
             <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
             <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
@@ -97,8 +97,8 @@ class ResultsPage extends PureComponent {
             src={require('../layouts/images/_SH_logo.png')}
           />
           <div className="sidebar-text">
-            JUNE 29, 2019
-            {/* <img src={require('../layouts/images/_date.png')} /> */}
+            {/* JUNE 29, 2019 */}
+            <img src={require('../layouts/images/_date.png')} />
           </div>
         </div>
         <div className={fixedMenuClass}>
@@ -116,7 +116,6 @@ class ResultsPage extends PureComponent {
           </div>
 
           <div className="mb-50">
-            {' '}
             <h3>
               <b>
                 Stab High 2.0 is returning to Waco, Texas on June 29, along with
@@ -248,7 +247,7 @@ class ResultsPage extends PureComponent {
           />
         </div>
 
-        <div className="list-container">
+        {/* <div className="list-container">
           <div className="video-container">
             <video controls autoPlay >
               <source
@@ -258,7 +257,7 @@ class ResultsPage extends PureComponent {
               Your browser does not support the video tag.
             </video>
           </div>
-        </div>
+        </div> */}
 
         <div
           className="list-container"
