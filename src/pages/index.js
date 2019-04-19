@@ -51,7 +51,10 @@ class ResultsPage extends PureComponent {
 
     return (
       <div>
-        <a href="https://www.eventbrite.com.au/e/stab-high-an-invitational-world-class-surfing-event-in-texas-tickets-59865637734" className="cta-bar">
+        <a
+          href="https://www.eventbrite.com.au/e/stab-high-an-invitational-world-class-surfing-event-in-texas-tickets-59865637734"
+          className="cta-bar"
+        >
           <div className="cta-text">
             <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
             <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
@@ -247,17 +250,16 @@ class ResultsPage extends PureComponent {
           />
         </div>
 
-        {/* <div className="list-container">
+        <div className="list-container">
           <div className="video-container">
-            <video controls autoPlay >
-              <source
-                src={require('../layouts/STABHIGH_hype_YT_1.mp4')}
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
+            <iframe
+              src="https://www.youtube.com/embed/r6pDrY8ZQsE"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </div>
-        </div> */}
+        </div>
 
         <div
           className="list-container"
