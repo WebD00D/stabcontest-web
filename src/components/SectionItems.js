@@ -9,41 +9,41 @@ const sections = [
     meta: '30, Grafton, New South Wales',
     content: `Christopher ‘Chippa’ Wilson is the most technically gifted aerialist in the world. The lynx-like Australian has both a deeper bag of tricks and a higher completion rate than just about anybody in the world, which is what makes Chippa the odds-on favorite to win Stab High.`,
   },
-  {
-    title: 'ALBEE LAYER',
-    meta: '27, Haiku, Maui',
-    content: `A bona fide aerial pioneer, Albee Layer is the first surfer ever to land both a double-alleyoop and a double-backside-air-reverse. At Stab High, he intends to add a few more novel tricks to that list (hint: watch for the judo alleyoop!)`,
-  },
-  {
-    title: 'Matt Meola',
-    meta: '29, Haiku, Maui',
-    content: `Like Albee, Matt Meola hails from Maui and is the owner of his very own surfing maneuver, the Spindle Flip – a corked, 540-degree double-grab rotation. Matt is considered one of the most nimble aerialists in the world, and is an easy favorite coming into Stab High. `,
-  },
-  {
-    title: 'Dion Agius',
-    meta: '33, Beaumaris, Tasmania',
-    content: `A former air show competitor from the early 2000s, Dion Agius has built a career around his ability to take flight. The Tasmanian's small stature and compact stance will be an advantage at Waco, where high flights and soft landings are the recipe for big scores. After the skyscraper ‘oop he landed in Epokhe’s "Listen Now, Misty Dawn", Dion has to be a favorite for our $20k Big Air prize.`,
-  },
-  {
-    title: 'Jett Schilling',
-    meta: '15, San Clemente, California',
-    content: `This human Q-tip has taken up full-time residence on the Lower Trestles left, giving Jett all the practice he needs for forehand punts. However the question remains whether Jett’s backhand will be primed for the excessive pop of the Waco ramp, which is likely to launch his scrawny frame into the mesosphere.`,
-  },
+  // {
+  //   title: 'ALBEE LAYER',
+  //   meta: '27, Haiku, Maui',
+  //   content: `A bona fide aerial pioneer, Albee Layer is the first surfer ever to land both a double-alleyoop and a double-backside-air-reverse. At Stab High, he intends to add a few more novel tricks to that list (hint: watch for the judo alleyoop!)`,
+  // },
+  // {
+  //   title: 'Matt Meola',
+  //   meta: '29, Haiku, Maui',
+  //   content: `Like Albee, Matt Meola hails from Maui and is the owner of his very own surfing maneuver, the Spindle Flip – a corked, 540-degree double-grab rotation. Matt is considered one of the most nimble aerialists in the world, and is an easy favorite coming into Stab High. `,
+  // },
+  // {
+  //   title: 'Dion Agius',
+  //   meta: '33, Beaumaris, Tasmania',
+  //   content: `A former air show competitor from the early 2000s, Dion Agius has built a career around his ability to take flight. The Tasmanian's small stature and compact stance will be an advantage at Waco, where high flights and soft landings are the recipe for big scores. After the skyscraper ‘oop he landed in Epokhe’s "Listen Now, Misty Dawn", Dion has to be a favorite for our $20k Big Air prize.`,
+  // },
+  // {
+  //   title: 'Jett Schilling',
+  //   meta: '15, San Clemente, California',
+  //   content: `This human Q-tip has taken up full-time residence on the Lower Trestles left, giving Jett all the practice he needs for forehand punts. However the question remains whether Jett’s backhand will be primed for the excessive pop of the Waco ramp, which is likely to launch his scrawny frame into the mesosphere.`,
+  // },
   {
     title: 'Mason Ho',
     meta: '29, Sunset Beach, Oahu',
     content: `Perhaps the most entertaining aerialist on the Stab High roster, Mason will likely attempt a handplant on the pool wall or shoot a non-existent tube on the takeoff. One might actually hope to see Mason lose before the final, if only to watch him attempt the wall jump in our Vans Acid Drop halftime show. `,
   },
-  {
-    title: 'Ian Crane',
-    meta: '25, San Clemente, California',
-    content: `It’s been said that Ian Crane’s knock-kneed approach is a trait of function and not fashion. According to the lore, Ian’s knees act as a catcher’s mitt for his oversized hog, ultimately blocking it from slapping across the water while he surfs. Despite that physical impediment, Ian proved his aerial worth when visiting Waco with Stab this May, nailing a wider variety of punts than any surfer in our crew. `,
-  },
-  {
-    title: 'Jay Davies',
-    meta: '31, Yallingup, Western Australia',
-    content: `Physically speaking, Jay Davies is one of the biggest aerialists in the world. Despite being 6’1” and carved out of West Australian timber, Jay is incredibly flexible and can finesse a spin with the best. He can also consume more Texas BBQ than Dion, Craig, and Meola combined.`,
-  },
+  // {
+  //   title: 'Ian Crane',
+  //   meta: '25, San Clemente, California',
+  //   content: `It’s been said that Ian Crane’s knock-kneed approach is a trait of function and not fashion. According to the lore, Ian’s knees act as a catcher’s mitt for his oversized hog, ultimately blocking it from slapping across the water while he surfs. Despite that physical impediment, Ian proved his aerial worth when visiting Waco with Stab this May, nailing a wider variety of punts than any surfer in our crew. `,
+  // },
+  // {
+  //   title: 'Jay Davies',
+  //   meta: '31, Yallingup, Western Australia',
+  //   content: `Physically speaking, Jay Davies is one of the biggest aerialists in the world. Despite being 6’1” and carved out of West Australian timber, Jay is incredibly flexible and can finesse a spin with the best. He can also consume more Texas BBQ than Dion, Craig, and Meola combined.`,
+  // },
   {
     title: 'Noa Deane',
     meta: '24, Coolangatta, Queensland',
@@ -59,22 +59,21 @@ const sections = [
     meta: '22, Sunshine Beach, Queensland',
     content: `After bursting onto the scene a few years back, Harry Bryant has contributed many terrific oddities to the world of surf, but none greater than his patented bowl cut. With a clean line of vision made possible by his pin-straight bangs, Harry will attack the ramp with vigour and aplomb.`,
   },
-  {
-    title: 'Brendon Gibbens',
-    meta: '26, Durban, South Africa',
-    content: `This rubber-legged lad can absorb impact like a Korean gymnast, often crumbling into a pile of limbs before resurrecting from the whitewash entirely intact. As the only South African surfer in the draw, Brendon Gibbens will have the accent advantage when it comes to Stab High's bustling afterparty.`,
-  },
-  {
-    title: 'Eli Hanneman',
-    meta: '15, Lahaina, Maui',
-    content: `Eli Hanneman may be small, but that just makes his airs look bigger. At just 15 years old, Stab High’s token wunderkind has already landed a backflip in the Waco pool, making him a genuine threat against his older, more creaky-limbed competitors. Eli may be a longshot to win in Waco, but he’ll entertain with his silky rotations and youthful enthusiasm.`,
-  },
-  {
-    title: 'Kael Walsh',
-    meta: '19, Yallingup, West Aus',
-    content: `Kael Walsh moved from Perth to Yallingup at 12 years old and hasn't let up on launching inverted punts since. He's one of the younger competitors in the field, but also one with little regard for the consequences which come from throwing yourself into the flats.`,
-  }
- 
+  // {
+  //   title: 'Brendon Gibbens',
+  //   meta: '26, Durban, South Africa',
+  //   content: `This rubber-legged lad can absorb impact like a Korean gymnast, often crumbling into a pile of limbs before resurrecting from the whitewash entirely intact. As the only South African surfer in the draw, Brendon Gibbens will have the accent advantage when it comes to Stab High's bustling afterparty.`,
+  // },
+  // {
+  //   title: 'Eli Hanneman',
+  //   meta: '15, Lahaina, Maui',
+  //   content: `Eli Hanneman may be small, but that just makes his airs look bigger. At just 15 years old, Stab High’s token wunderkind has already landed a backflip in the Waco pool, making him a genuine threat against his older, more creaky-limbed competitors. Eli may be a longshot to win in Waco, but he’ll entertain with his silky rotations and youthful enthusiasm.`,
+  // },
+  // {
+  //   title: 'Kael Walsh',
+  //   meta: '19, Yallingup, West Aus',
+  //   content: `Kael Walsh moved from Perth to Yallingup at 12 years old and hasn't let up on launching inverted punts since. He's one of the younger competitors in the field, but also one with little regard for the consequences which come from throwing yourself into the flats.`,
+  // }
 ]
 
 class SectionItems extends React.Component {
@@ -88,7 +87,6 @@ class SectionItems extends React.Component {
 
   render() {
     const sectionItems = sections.map((i, key) => {
-
       const contentClass =
         this.state.activeItem === i.title
           ? 'list-item__content'

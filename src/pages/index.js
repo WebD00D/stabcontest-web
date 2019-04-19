@@ -51,74 +51,30 @@ class ResultsPage extends PureComponent {
 
     return (
       <div>
-        <div className="cta-bar">
+        <a href="#" className="cta-bar">
           <div className="cta-text">
-            <div>
-              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEANE!
-            </div>
-            <div>
-              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEANE!
-            </div>
-            <div>
-              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEANE!
-            </div>
-            <div>
-              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEANE!
-            </div>
-            <div>
-              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEANE!
-            </div>
-            <div>
-              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEANE!
-            </div>
-            <div>
-              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEANE!
-            </div>
-            <div>
-              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEANE!
-            </div>
-            <div>
-              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEANE!
-            </div>
-            <div>
-              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEANE!
-            </div>
-            <div>
-              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEANE!
-            </div>
-            <div>
-              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEANE!
-            </div>
-            <div>
-              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEANE!
-            </div>
-            <div>
-              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEANE!
-            </div>
-            <div>
-              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEANE!
-            </div>
-            <div>
-              HOOT! AND THE WINNER OF STAB HIGH PRESENTED BY MONSTER IS NOA
-              DEANE!
-            </div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
           </div>
-        </div>
+        </a>
         <div
           onClick={() => {
             this.handleMobileClick()
@@ -141,7 +97,8 @@ class ResultsPage extends PureComponent {
             src={require('../layouts/images/_SH_logo.png')}
           />
           <div className="sidebar-text">
-            <img src={require('../layouts/images/_date.png')} />
+            JUNE 29, 2019
+            {/* <img src={require('../layouts/images/_date.png')} /> */}
           </div>
         </div>
         <div className={fixedMenuClass}>
@@ -150,7 +107,7 @@ class ResultsPage extends PureComponent {
               <b>ALL THE DETAILS</b>
             </h1>
             <h2>
-              <b>September 22 - WACO, TX</b>
+              <b>June 29 - WACO, TX</b>
             </h2>
             <img
               style={{ width: '100%', marginTop: '22px' }}
@@ -161,220 +118,127 @@ class ResultsPage extends PureComponent {
           <div className="mb-50">
             {' '}
             <h3>
-              <b>What is Stab High?</b>
+              <b>
+                Stab High 2.0 is returning to Waco, Texas on June 29, along with
+                a live broadcast on stabmag.com.
+              </b>
             </h3>
             <p>
-              Stab High is a world class surfing event in the heart of Texas.
-              Despite the oxymoron, this middle-American location may just be
-              surfing’s ultimate competitive platform.
+              “It's pretty much the sickest event ever,” Noa Deane said in 2018,
+              following his win. “Chip and I just slammed like four beers before
+              the final.”
             </p>
             <p>
-              Some context: At Barefoot Ski Ranch in Waco, Texas, owner Stuart
-              Parsons installed the first full-sized American Wave Machines wave
-              pool. Professional surfer Cheyne Magnusson was hired to manage the
-              site and lead wavepool testing, which led to the creation of the
-              world’s greatest man-made air section. Stab High will gather 16 of
-              surfing’s premier aerialists in Waco, where over a live webcast
-              surfers like Chippa Wilson, Noa Deane, and Albee Layer will
-              attempt to land the biggest and most innovative aerials possible,
-              for a significant cash prize.
-            </p>
-          </div>
-
-          <div className="mb-50">
-            {' '}
-            <h3>
-              <b>The Premiere Performance Wave</b>
-            </h3>
-            <p>
-              Without the slightest whiff of hyperbole, the BSR wavepool is the
-              premiere performance wave in the world. Surfers who visited Stab
-              there in May said they hadn’t met an air section as good as this
-              pool provided in the past 12 months. Not one.
-            </p>
-          </div>
-
-          <div className="mb-50">
-            {' '}
-            <h3>
-              <b>Here's what a ticket will get you</b>
-            </h3>
-            <p>
-              Access to Stab's air contest, starring 20 of the world’s best,
-              non-WSL owned, jumpers; a pass to all of BSR Cable Park’s
-              features—the world’s largest Lazy River and the Royal Flush (a
-              water slide/launch ramp unlike any you’ve ever seen); the after
-              party featuring a live performance by Poolside; the after-after
-              party featuring Reverberation Radio; drinks, food, libations and
-              much much more.
-            </p>
-          </div>
-
-          <div className="mb-50">
-            {' '}
-            <h3>
-              <b>Here's what you need to know (Competition Breakdown)</b>
-            </h3>
-            <p>
-              <ul>
-                <li>
-                  The Broadcast will go live at 12:30 pm local time. As most of
-                  us don’t live in Texas, here’s how that translates to your
-                  areas:
-                </li>
-                <li>
-                  <i>EST. Saturday, September 22, 1.30pm</i>
-                </li>
-                <li>
-                  <i>PST. Saturday, September 22, 10.30am</i>
-                </li>
-                <li>
-                  <i>AEST. Sunday, September 23, 3.30am</i>
-                </li>
-                <li>
-                  <i>AWST. Sunday, September 23, 1.30am</i>
-                </li>
-              </ul>
+              At the inaugural Stab High event in 2018, we saw the world’s
+              aerial elite competing to land the most robust airs in surfing –
+              from flips to varials to sky-high straighties. This year we’re
+              doing it all again... with a few exciting tweaks.
             </p>
             <p>
-              The Round One Qualifier will run from 12:45 - 2:40 pm and will be
-              available online free of charge. After that, you can pre-register
-              for Pay Per View here: $13.99USD on event day or early bird price
-              of $8.99USD. Round One will feature two lefts and two rights per
-              surfer.
+              Last year’s greatest performers, including event champ Noa Deane,
+              runner-up Chippa Wilson, Big Air winner Eithan Osborne, teenage
+              flipster Eli Hanneman, and the highest scoring surfer Mason Ho
+              will all be back in attendance, including another dozen (or so)
+              elite punters.
             </p>
             <p>
-              The Round Two Qualifier will run from 2:45 - 4:40, and will once
-              again feature two lefts and two rights per surfer (20 surfers in
-              both Qualifiers).
+              One addition to this year’s event is the Stab High Ladybirds – an
+              invitational aerial competition for 14-and-under females,
+              including Sierra Kerr, Caitlin Simmers, and Bella Kenworthy. First
+              and second from this event will head to the 2019 Australian Stab
+              High event (details coming soon) and the winner will receive a
+              12-month Vans contract.
             </p>
             <p>
-              From 4:53 - 5:20 there will be a bonus wave, each surfer choosing
-              a left or right of their choice. Two scores are held on to. One
-              right and one left.{' '}
-            </p>
-            <p>The top six surfers will be in the final.</p>
-            <p>
-              Prior to the final, we have a special event to be announced soon.
-              This will run from 5:25 - 5:50.
-            </p>
-            <p>At 6 pm (local time) the final round will kick off.</p>
-            <ul>
-              <li>
-                <i>EST. Saturday, September 22, 7pm</i>
-              </li>
-              <li>
-                <i>PST. Saturday, September 22, 5pm</i>
-              </li>
-              <li>
-                <i>AEST. Sunday, September 23, 10am</i>
-              </li>
-              <li>
-                <i>AWST. Sunday, September 23, 8am</i>
-              </li>
-            </ul>
-            <p>
-              In the final, four lefts and four rights will be ridden by each
-              surfer plus a bonus wave of choice. The best two scores (left +
-              right) will be taken into account to determine the winner.
+              “There's so much new energy in surfing and skating now that it’s
+              really our job to set the stage and offer those opportunities to
+              everyone,” says Scott Sismas, VP of Vans. “The Ladybird division
+              is going to go off!”
             </p>
             <p>
-              After the final, we will be rewarding six spectators a lucky door
-              prize. They will be given a session in the pool with Shane Dorian
-              and Bobby Martinez.
+              Monster Energy have continued their support of Stab High and,
+              keeping tradition from last year’s event, they’re adamant that we
+              penalize surfers for claiming, and that winners must forfeit all
+              prize money to a charity of their choice if they’re chaired up the
+              beach.
             </p>
             <p>
-              Also, throughout the day, kids who want to ride the whitewash and
-              the reform will be allowed to do so. We’re working with the
-              lifeguards on what those final numbers look like, but we’ll be
-              sure to get the groms riding a few waves at very least.
-            </p>
-          </div>
-
-          <div className="mb-50">
-            {' '}
-            <h3>
-              <b>How the judging works</b>
-            </h3>
-            <p>
-              <ul>
-                <li>
-                  Waves will be scored from 0 to 100 on a static, event-wide
-                  scale (judges will be able to look back at past-completed airs
-                  to keep their scoring consistent throughout the event).
-                </li>
-                <li>
-                  Only airs will be scored. Turns/blowtails/club-sandwiches will
-                  not count.
-                </li>
-                <li>
-                  Airs must be completed with control and ridden out under the
-                  power of the wave, with at least the nose of the board
-                  breaking free from the whitewater. (WSL rulez)
-                </li>
-                <li>
-                  Scoring criteria: We’re gonna be stingy with our scores, but
-                  only because we know how good these guys are! For a benchmark,
-                  we’ve set Seth Moniz’s backflip (currently the best air landed
-                  at the Waco site) at a clean 80-pointer. Here’s what the airs
-                  will be judged on:
-                  <ul>
-                    <li>
-                      Height (determined by the lowest part of board or body)
-                    </li>
-                    <li>
-                      Speed/Distance covered (has anybody cleared the whole
-                      section yet?)
-                    </li>
-                    <li>Style (if it looks good, it scores great)</li>
-                    <li>
-                      Progression and creativity (any weird grabs, tweaks,
-                      spins, rolls, and flips will be noted!)
-                    </li>
-                    <li>Landing (the cleaner, the better)</li>
-                  </ul>
-                </li>
-              </ul>
-            </p>
-          </div>
-
-          <div className="mb-50">
-            {' '}
-            <h3>
-              <b>Beyond the surf.</b>
-            </h3>
-            <p>
-              Stab High isn’t just a surfing competition – it’s also an
-              end-of-summer-blowout, suitable for humans of all ages, interests,
-              and ideologies!
+              Along with Monster, Vans has come on as headline sponsor in 2019.
+              “I was lucky enough to attend the first Stab High,” says Vans VP,
+              Scott Sisamis. “At the same time I was heading a team to re-launch
+              Vans Surf through the lens of radical experimentation leading to
+              cultural progression. It was easy to see that Stab High was a
+              perfect example of this. Not many contests have a field of
+              competitors exclaiming how much fun it was. It was also a really
+              creative stage for progressive freesurfing and surfers that hadn't
+              been seen before.”
             </p>
             <p>
-              Stab High attendees are encouraged to wade in the shallow-end
-              while our surfers kiss the stratosphere, enjoy chilled beverages
-              at the heavily stocked pool bar, or feast on cuisine from our
-              fleet of health-focused food trucks.
+              We’ll also have a return of the Vans Acid Drop hosted by Nathan
+              Fletcher, in which surfers attempt to jump from the top of the
+              wavepool’s concrete wall (12 feet) straight onto a wave. Because
+              no one has ridden away from this atmospheric plunge in Waco’s
+              history, this year we’ll be using a series of raised tiers along
+              the wall that surfers must complete, in ascending order, before
+              they can attempt the mega drop. “That was fucking heavy!” said
+              Harry Bryant, after coming inches from an Acid Drop completion
+              last year. “I’ve nearly buckled me board.”
             </p>
             <p>
-              After the competition ends, daytime disco group, Poolside will
-              play a live show at sunset.
+              The ethos of Stab High is simple: we want to create a fun,
+              progressive, and brutally honest surfing event that doesn't take
+              all day. This year Stab High will run over the course of four
+              hours and can be viewed in-person at Waco’s Barefoot Ski Resort
+              (tickets on sale soon) or on our live webcast (Pay-Per-View, read
+              south for $$), while a condensed version of the competition can be
+              found on ESPN several weeks after the event.
             </p>
             <p>
-              There will be a following after-after party spun by various DJs to
-              keep the vibes going well past our bedtimes on the lawn at BSR
-              Cablepark.
+              This year the event will be judged by 2018 Stab High competitor
+              Albee Layer (who is currently out with an injury), east coast
+              aerial tycoon Aaron ‘Gorkin’ Cormican, and one yet-to-be named
+              surfing critic, with Stab’s own Michael Ciaramella acting as head
+              judge (which is a fancy title for beer maid).
+            </p>
+            <p>
+              One core aspect of Stab High is that we encourage our viewers to
+              vocalize any of our judges’ wrongdoings. Throw a rotten tomato if
+              they really blew it. “All that shuv-it crap isn't surfing,”
+              proclaimed ...Lost Surfboard founder Matt ‘Mayhem’ Biolos after
+              watching last year’s event, which saw Noa Deane win on two silky
+              varials. “Guys were doing that stuff 20 years ago,” Matt
+              continued. “Eli [Hanneman]’s flips on the other hand…” German
+              artist Stefan Marks will be adorning Waco’s Barefoot Ski Ranch
+              with all kinds of creative oddities, including the competitors’
+              T-shirts – of which the goofies will wear white and regulars black
+              – the concert venue, and the wavepool wall.
+            </p>
+            <p>
+              Food, drinks, and exclusive event merchandise will be made
+              available for our Waco event-goers. All ages are welcome and
+              you’re allowed to surf during the event, too: we’ll just have you
+              sitting away from the action and not fighting our competitors for
+              waves. And don't worry, we'll do our best to keep Harry “Headlock”
+              Bryant away from the children.
+            </p>
+            <p>
+              Cost of admission to Stab High is $38.50, but $175 gets you to VIP
+              status, which offers a number of notable perks. For those who
+              can’t make it, Stab High will be broadcasted live at stabhigh.com
+              for $14 (on the day) or $9 if you purchase early.
             </p>
           </div>
         </div>
         <div className="btn-wrappers">
           <a
-            href="https://stabmagazine.cleeng.com/vod/stab-high-vod/A617539948_US"
+            href="https://www.eventbrite.com.au/e/stab-high-an-invitational-world-class-surfing-event-in-texas-tickets-59865637734"
             className="btn-primary hide-mobile"
           >
-            WATCH ON DEMAND
+            BUY TICKETS
           </a>
         </div>
         <div className="hero">
-          <img src={require('../layouts/images/01_title.png')} />
+          <img src={require('../layouts/images/logo_plain_01.png')} />
         </div>
         <div className="random-monster__3">
           <img
@@ -382,11 +246,24 @@ class ResultsPage extends PureComponent {
             data-rellax-speed="11"
             src={require('../layouts/images/2x/outline_two-bk@2x.png')}
           />
-        </div>ya
+        </div>
+
+        <div className="list-container">
+          <div className="video-container">
+            <video controls autoPlay >
+              <source
+                src={require('../layouts/STABHIGH_hype_YT_1.mp4')}
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+
         <div
           className="list-container"
           id="event-results"
-          style={{ backgroundColor: 'white' }}
+          style={{ backgroundColor: 'white', display: 'none' }}
         >
           <div className="photos-wrap">
             <h3 className="headline-title">FINAL RESULTS</h3>
@@ -405,7 +282,7 @@ class ResultsPage extends PureComponent {
         <div
           className="list-container"
           id="event-photos"
-          style={{ backgroundColor: 'white' }}
+          style={{ backgroundColor: 'white', display: 'none' }}
         >
           <div className="photos-wrap">
             <h3 className="headline-title">EVENT PHOTOS</h3>
@@ -426,13 +303,13 @@ class ResultsPage extends PureComponent {
               Eithan Osborne won $20k for this air.
             </p>
 
-              <img
+            <img
               className="event-photo"
               src={require('../layouts/images/event/MasonHo.jpg')}
             />
             <p className="photo-caption">
-            Mason Ho wins the award for best air shot we've ever seen.
-</p>
+              Mason Ho wins the award for best air shot we've ever seen.
+            </p>
 
             <img
               className="event-photo"
@@ -449,8 +326,6 @@ class ResultsPage extends PureComponent {
             <p className="photo-caption">
               6th place Ian Crane and the electric spray.
             </p>
-
-
 
             <img
               className="event-photo"
@@ -472,19 +347,19 @@ class ResultsPage extends PureComponent {
         </div>
         <a
           target="_blank"
-          href="https://www.eventbrite.com.au/e/stab-high-tickets-49200690590"
+          href="https://www.eventbrite.com.au/e/stab-high-an-invitational-world-class-surfing-event-in-texas-tickets-59865637734"
           className="buy-tickets-mobile"
         >
           EVENT TICKETS
         </a>
-        <a
+        {/* <a
           target="_blank"
           href="https://stabmagazine.cleeng.com/stab-high-a-surf-contest-mostly-in-the-air/E976314967_US?_ga=2.24139570.963626054.1536793788-1585989039.1534795076"
           className="buy-tickets-mobile"
           style={{ borderTop: '1px solid #fff' }}
         >
           PAY PER VIEW TICKETS
-        </a>
+        </a> */}
       </div>
     )
   }

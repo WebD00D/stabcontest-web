@@ -14,11 +14,6 @@ const Hero = () => (
   <div className="hero" >
     <div className="hero-filter"></div>
     <Row>
-      {/* <Col span={14}>
-          <img className="logo-img" src={ require("../../layouts/images/_SH_logo.png") } />
-         
-      </Col> */}
-     
       <Col span={10}>
         <div className="pad-24">
           <UI.H1 className="mb-12">
