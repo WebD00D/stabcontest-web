@@ -225,9 +225,11 @@ class ResultsPage extends PureComponent {
             </p>
             <p>
               Cost of admission to Stab High is $38.50, but $175 gets you to VIP
-              status, which offers a number of notable perks. For those who
-              can’t make it, Stab High will be broadcasted live at stabhigh.com
-              for $14 (on the day) or $9 if you purchase early.
+              status, which offers a number of notable perks. Doors open at
+              10am, with the event starting at 3pm. The competetion will run
+              until sunset followed by live music. For those who can’t make it,
+              Stab High will be broadcasted live at stabhigh.com for $14 (on the
+              day) or $9 if you purchase early.
             </p>
           </div>
         </div>
