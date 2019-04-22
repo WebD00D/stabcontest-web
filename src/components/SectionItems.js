@@ -5,6 +5,11 @@ import { Icon, Drawer } from 'antd'
 
 const sections = [
   {
+    title: 'Harry Bryant',
+    meta: '22, Sunshine Beach, Queensland',
+    content: `After bursting onto the scene a few years back, Harry Bryant has contributed many terrific oddities to the world of surf, but none greater than his patented bowl cut. With a clean line of vision made possible by his pin-straight bangs, Harry will attack the ramp with vigour and aplomb.`,
+  },
+  {
     title: 'Chippa Wilson',
     meta: '30, Grafton, New South Wales',
     content: `Christopher ‘Chippa’ Wilson is the most technically gifted aerialist in the world. The lynx-like Australian has both a deeper bag of tricks and a higher completion rate than just about anybody in the world, which is what makes Chippa the odds-on favorite to win Stab High.`,
@@ -53,12 +58,8 @@ const sections = [
     title: 'Eithan Osborne',
     meta: '18, Ventura, California',
     content: `If he isn’t able to win on talent alone, Eithan Osborne will use his primordial power stance to shock competitors into submission. We wonder if this underground punter might whet a few palettes with his Reynolds-inspired flair.`,
-  },
-  {
-    title: 'Harry Bryant',
-    meta: '22, Sunshine Beach, Queensland',
-    content: `After bursting onto the scene a few years back, Harry Bryant has contributed many terrific oddities to the world of surf, but none greater than his patented bowl cut. With a clean line of vision made possible by his pin-straight bangs, Harry will attack the ramp with vigour and aplomb.`,
-  },
+  }
+  
   // {
   //   title: 'Brendon Gibbens',
   //   meta: '26, Durban, South Africa',

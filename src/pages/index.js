@@ -100,8 +100,8 @@ class ResultsPage extends PureComponent {
             src={require('../layouts/images/_SH_logo.png')}
           />
           <div className="sidebar-text">
-            {/* JUNE 29, 2019 */}
-            <img src={require('../layouts/images/_date.png')} />
+             {/* JUNE 29, 2019 */}
+            <img src={require('../layouts/images/WACO_LOGO.png')} /> 
           </div>
         </div>
         <div className={fixedMenuClass}>
@@ -242,13 +242,13 @@ class ResultsPage extends PureComponent {
         <div className="hero">
           <img src={require('../layouts/images/logo_plain_01.png')} />
         </div>
-        <div className="random-monster__3">
+        {/* <div className="random-monster__3">
           <img
             className="rellax"
             data-rellax-speed="11"
             src={require('../layouts/images/2x/outline_two-bk@2x.png')}
           />
-        </div>
+        </div> */}
 
         <div className="list-container">
           <div className="video-container">
