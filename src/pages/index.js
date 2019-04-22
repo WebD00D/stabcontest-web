@@ -97,7 +97,7 @@ class ResultsPage extends PureComponent {
           </div>
           <img
             className="logo"
-            src={require('../layouts/images/_SH_logo.png')}
+            src={require('../layouts/images/logo_plain_02.png')}
           />
           <div className="sidebar-text">
              {/* JUNE 29, 2019 */}
