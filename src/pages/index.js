@@ -100,8 +100,8 @@ class ResultsPage extends PureComponent {
             src={require('../layouts/images/logo_plain_02.png')}
           />
           <div className="sidebar-text">
-             {/* JUNE 29, 2019 */}
-            <img src={require('../layouts/images/WACO_LOGO.png')} /> 
+            {/* JUNE 29, 2019 */}
+            <img src={require('../layouts/images/WACO_LOGO.png')} />
           </div>
         </div>
         <div className={fixedMenuClass}>
@@ -235,6 +235,7 @@ class ResultsPage extends PureComponent {
           <a
             href="https://www.eventbrite.com.au/e/stab-high-an-invitational-world-class-surfing-event-in-texas-tickets-59865637734"
             className="btn-primary hide-mobile"
+            target="_blank"
           >
             BUY TICKETS
           </a>
