@@ -126,111 +126,144 @@ class ResultsPage extends PureComponent {
               </b>
             </h3>
             <p>
-              “It's pretty much the sickest event ever,” Noa Deane said in 2018,
-              following his win. “Chip and I just slammed like four beers before
-              the final.”
+              Last year&rsquo;s greatest performers, including event champ Noa
+              Deane, runner-up Chippa Wilson, Big Air winner Eithan Osborne,
+              teenage flipster Eli Hanneman, and the highest scoring surfer
+              Mason Ho will all be back in attendance, including another dozen
+              (or so) elite punters.
             </p>
+
             <p>
-              At the inaugural Stab High event in 2018, we saw the world’s
-              aerial elite competing to land the most robust airs in surfing –
-              from flips to varials to sky-high straighties. This year we’re
-              doing it all again... with a few exciting tweaks.
+              &ldquo;It's pretty much the sickest event ever,&rdquo; Noa Deane
+              said in 2018, following his Stab High win. &ldquo;Chip and I just
+              slammed like four beers before the final.&rdquo;
             </p>
-            <p>
-              Last year’s greatest performers, including event champ Noa Deane,
-              runner-up Chippa Wilson, Big Air winner Eithan Osborne, teenage
-              flipster Eli Hanneman, and the highest scoring surfer Mason Ho
-              will all be back in attendance, including another dozen (or so)
-              elite punters.
-            </p>
-            <p>
-              One addition to this year’s event is the Stab High Ladybirds – an
-              invitational aerial competition for 14-and-under females,
-              including Sierra Kerr, Caitlin Simmers, and Bella Kenworthy. First
-              and second from this event will head to the 2019 Australian Stab
-              High event (details coming soon) and the winner will receive a
-              12-month Vans contract.
-            </p>
-            <p>
-              “There's so much new energy in surfing and skating now that it’s
-              really our job to set the stage and offer those opportunities to
-              everyone,” says Scott Sismas, VP of Vans. “The Ladybird division
-              is going to go off!”
-            </p>
-            <p>
-              Monster Energy have continued their support of Stab High and,
-              keeping tradition from last year’s event, they’re adamant that we
-              penalize surfers for claiming, and that winners must forfeit all
-              prize money to a charity of their choice if they’re chaired up the
-              beach.
-            </p>
-            <p>
-              Along with Monster, Vans has come on as headline sponsor in 2019.
-              “I was lucky enough to attend the first Stab High,” says Vans VP,
-              Scott Sisamis. “At the same time I was heading a team to re-launch
-              Vans Surf through the lens of radical experimentation leading to
-              cultural progression. It was easy to see that Stab High was a
-              perfect example of this. Not many contests have a field of
-              competitors exclaiming how much fun it was. It was also a really
-              creative stage for progressive freesurfing and surfers that hadn't
-              been seen before.”
-            </p>
-            <p>
-              We’ll also have a return of the Vans Acid Drop hosted by Nathan
-              Fletcher, in which surfers attempt to jump from the top of the
-              wavepool’s concrete wall (12 feet) straight onto a wave. Because
-              no one has ridden away from this atmospheric plunge in Waco’s
-              history, this year we’ll be using a series of raised tiers along
-              the wall that surfers must complete, in ascending order, before
-              they can attempt the mega drop. “That was fucking heavy!” said
-              Harry Bryant, after coming inches from an Acid Drop completion
-              last year. “I’ve nearly buckled me board.”
-            </p>
+
             <p>
               The ethos of Stab High is simple: we want to create a fun,
               progressive, and brutally honest surfing event that doesn't take
-              all day. This year Stab High will run over the course of four
-              hours and can be viewed in-person at Waco’s Barefoot Ski Resort
-              (tickets on sale soon) or on our live webcast (Pay-Per-View, read
-              south for $$), while a condensed version of the competition can be
-              found on ESPN several weeks after the event.
+              all day. This year, Stab High will run from 3 p.m. 'till sunset
+              and can be viewed in-person at Waco&rsquo;s Barefoot Ski Resort or
+              on our live webcast. Competition highlights will air on ESPN
+              following the event.
             </p>
+
+            <p>
+              This year&rsquo;s event will introduce the Stab High Ladybirds
+              division&ndash; an invitational aerial competition for
+              15-and-under females, including Sierra Kerr, Caitlin Simmers, and
+              Bella Kenworthy. First and second place will advance to the 2019
+              Australian Stab High event (details coming soon) and the Ladybirds
+              winner will be awarded a 12-month Vans flow contract.
+            </p>
+
+            <p>
+              &ldquo;There's so much new energy in surfing and skating now.
+              It&rsquo;s our job to set the stage and offer these unique
+              opportunities to everyone,&rdquo; says Scott Sisamis, Vans&rsquo;
+              Director of Sports Marketing. &ldquo;The Ladybird division is
+              going to go off!&rdquo;
+            </p>
+
+            <p>
+              Monster Energy have continued their support of Stab High and,
+              keeping tradition from last year&rsquo;s event, they&rsquo;re
+              adamant that we penalize surfers for claiming, and that winners
+              must forfeit all prize money to a charity of their choice if
+              they&rsquo;re chaired up the beach.{' '}
+            </p>
+
+            <p>
+              Along with Monster, Vans have returned as a headline sponsor of
+              Stab High in 2019. &ldquo;I was lucky enough to attend the first
+              Stab High,&rdquo; said Sisamis. &ldquo;At the time, I was heading
+              a team to re-launch Vans Surf through the lens of radical
+              experimentation leading to cultural progression&mdash;Stab High is
+              the perfect example of this. Not many contests have a field of
+              competitors exclaiming how much fun the contest was. It is a
+              really creative stage for progressive freesurfing and surfers that
+              haven&rsquo;t been showcased on this level before, and for a live,
+              truly engaged audience.&rdquo;
+            </p>
+
+            <p>
+              We&rsquo;ll also welcome the return of the Vans Acid Drop hosted
+              by Nathan Fletcher, in which surfers attempt to jump from the top
+              of the wavepool&rsquo;s 12-foot concrete wall straight onto a
+              wave. Since no one has ridden away from this atmospheric plunge in
+              Waco&rsquo;s brief history, this year we&rsquo;ll be using a
+              series of raised tiers along the wall that surfers must complete,
+              in ascending order, before they can attempt the mega drop.
+            </p>
+
+            <p>
+              &ldquo;That was fucking heavy!&rdquo; said Harry Bryant, after
+              coming inches from an Acid Drop completion last year. &ldquo;I
+              nearly buckled me board.&rdquo;
+            </p>
+
             <p>
               This year the event will be judged by 2018 Stab High competitor
-              Albee Layer (who is currently out with an injury), east coast
-              aerial tycoon Aaron ‘Gorkin’ Cormican, and one yet-to-be named
-              surfing critic, with Stab’s own Michael Ciaramella acting as head
-              judge (which is a fancy title for beer maid).
+              Albee Layer (who is out of the water with an injury), east coast
+              aerial tycoon Aaron &lsquo;Gorkin&rsquo; Cormican, and one
+              yet-to-be-named punt critic, with Stab&rsquo;s resident surf nerd
+              Michael Ciaramella acting as head judge (which is a fancy title
+              for beer maid).
             </p>
+
             <p>
               One core aspect of Stab High is that we encourage our viewers to
-              vocalize any of our judges’ wrongdoings. Throw a rotten tomato if
-              they really blew it. “All that shuv-it crap isn't surfing,”
-              proclaimed ...Lost Surfboard founder Matt ‘Mayhem’ Biolos after
-              watching last year’s event, which saw Noa Deane win on two silky
-              varials. “Guys were doing that stuff 20 years ago,” Matt
-              continued. “Eli [Hanneman]’s flips on the other hand…” German
-              artist Stefan Marks will be adorning Waco’s Barefoot Ski Ranch
-              with all kinds of creative oddities, including the competitors’
-              T-shirts – of which the goofies will wear white and regulars black
-              – the concert venue, and the wavepool wall.
+              vocalize any of our judges&rsquo; wrongdoings. Hell, you can throw
+              a rotten tomato for all we care.
             </p>
+
+            <p>
+              &ldquo;All that shuv-it crap isn't surfing,&rdquo; proclaimed
+              ...Lost Surfboard founder Matt &lsquo;Mayhem&rsquo; Biolos after
+              watching last year&rsquo;s event, which saw Noa Deane win on two
+              silky varials.
+            </p>
+
+            <p>
+              &ldquo;Guys were doing that stuff 20 years ago,&rdquo; Matt
+              continued. &ldquo;Eli [Hanneman]&rsquo;s flips on the other
+              hand&#8230;&rdquo;
+            </p>
+
+            <p>
+              German artist Stefan Marks will be adorning Waco&rsquo;s Barefoot
+              Ski Ranch with all kinds of creative oddities, including the
+              competitors&rsquo; T-shirts &ndash; of which the goofies will wear
+              white and regulars black &ndash; the concert venue, and the
+              wavepool wall.
+            </p>
+
             <p>
               Food, drinks, and exclusive event merchandise will be made
               available for our Waco event-goers. All ages are welcome and
-              you’re allowed to surf during the event, too: we’ll just have you
-              sitting away from the action and not fighting our competitors for
-              waves. And don't worry, we'll do our best to keep Harry “Headlock”
-              Bryant away from the children.
+              you&rsquo;re allowed to surf during the event, too; we&rsquo;ll
+              just have you sitting away from the action and not fighting our
+              competitors for waves.{' '}
             </p>
+
             <p>
-              Cost of admission to Stab High is $38.50, but $175 gets you to VIP
-              status, which offers a number of notable perks. Doors open at
-              10am, with the event starting at 3pm. The competetion will run
-              until sunset followed by live music. For those who can’t make it,
-              Stab High will be broadcasted live at stabhigh.com for $14 (on the
-              day) or $9 if you purchase early.
+              And don't worry, we'll do our best to keep Harry
+              &ldquo;Headlock&rdquo; Bryant away from the children.
             </p>
+
+            <p>
+              Cost of admission to Stab High is $41.50, but $175 gets you to VIP
+              status, which offers a number of notable perks.{' '}
+            </p>
+
+            <p>
+              For those who can&rsquo;t make it, Stab High will be broadcast
+              live for $14 (on the day) or $9 if you purchase early, starting at
+              the following global hours on June 29 (or June 30 in Oz): 1 p.m
+              PST; 3 p.m. CST (local Texas time); 4 p.m. EST; 8 a.m. AEST
+            </p>
+
+            <p>See you there.</p>
           </div>
         </div>
         <div className="btn-wrappers">
