@@ -865,6 +865,17 @@ iframe {
   border: none;
 }
 
+.inplayer-paywall {
+  width: 100%;
+  text-align: center;
+}
+
+.inplayer-iframe {
+  width: 100%;
+  height: 900px;
+  border: none;
+}
+
 /* IFRAME OVERWRITES */
 
 #content_header_title {
