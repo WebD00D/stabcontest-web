@@ -314,7 +314,7 @@ class ResultsPage extends PureComponent {
 
         <div className="list-container">
           <div className="video-container" style={{paddingBottom: '0px'}}>
-            <h3 className="headline-title">PRE-ORDER LIVE STREAM</h3>
+            <h3 className="headline-title pre-order-title">PRE-ORDER LIVE STREAM</h3>
           </div>
 
           <div className="video-container" style={{paddingTop: '0px'}}>
