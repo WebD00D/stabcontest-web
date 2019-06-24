@@ -23,7 +23,26 @@ class ResultsPage extends PureComponent {
     }
   }
   componentDidMount() {
-    var rellax = new Rellax('.rellax')
+    const inplayer = document.createElement('script')
+    inplayer.type = 'text/javascript'
+    inplayer.src = 'https://assets.inplayer.com/paywall/latest/paywall.min.js'
+    document.head.appendChild(inplayer)
+
+    inplayer.onload = () => {
+      const paywall = new InplayerPaywall(
+        '23b08bc0-c50c-4bb1-8606-6a2db940919e',
+        [
+          {
+            id: 67120,
+          },
+        ],
+        {
+          brandingId: 472,
+        }
+      )
+    }
+
+    // inplayer-67120
   }
 
   handleMobileClick() {
@@ -268,11 +287,18 @@ class ResultsPage extends PureComponent {
         </div>
         <div className="btn-wrappers">
           <a
+            href="/#inplayer-67120"
+            className="btn-primary hide-mobile"
+            style={{ marginRight: '12px' }}
+          >
+            LIVESTEAM TICKETS
+          </a>
+          <a
             href="https://www.eventbrite.com.au/e/stab-high-an-invitational-world-class-surfing-event-in-texas-tickets-59865637734"
             className="btn-primary hide-mobile"
             target="_blank"
           >
-            BUY TICKETS
+            EVENT TICKETS
           </a>
         </div>
         <div className="hero">
@@ -287,13 +313,18 @@ class ResultsPage extends PureComponent {
         </div> */}
 
         <div className="list-container">
-          <div className="video-container">
-            <iframe
+          <div className="video-container" style={{paddingBottom: '0px'}}>
+            <h3 className="headline-title">PRE-ORDER LIVE STREAM</h3>
+          </div>
+
+          <div className="video-container" style={{paddingTop: '0px'}}>
+            <div id="inplayer-67120" className="inplayer-paywall" />
+            {/* <iframe
               src="https://www.youtube.com/embed/r6pDrY8ZQsE"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-            />
+            /> */}
           </div>
         </div>
 
