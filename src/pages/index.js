@@ -291,7 +291,7 @@ class ResultsPage extends PureComponent {
             className="btn-primary hide-mobile"
             style={{ marginRight: '12px' }}
           >
-            LIVESTEAM TICKETS
+            LIVESTREAM TICKETS
           </a>
           <a
             href="https://www.eventbrite.com.au/e/stab-high-an-invitational-world-class-surfing-event-in-texas-tickets-59865637734"
