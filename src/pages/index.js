@@ -110,9 +110,11 @@ class ResultsPage extends PureComponent {
             onClick={() => {
               this.setState({ showInfo: !this.state.showInfo })
             }}
+            style={{ flexDirection: 'column' }}
             className="sidebar-block"
           >
-            <i className="fa fa-bars" />
+            <i className="fa fa-question" />
+            <span style={{ fontSize: '13px', letterSpacing: '1px' }}>FAQ</span>
           </div>
           <img
             className="logo"
@@ -138,12 +140,100 @@ class ResultsPage extends PureComponent {
           </div>
 
           <div className="mb-50">
-            <h3>
-              <b>
-                Stab High 2.0 is returning to Waco, Texas on June 29, along with
-                a live broadcast on stabmag.com.
-              </b>
-            </h3>
+            <h2>
+              <b>Broadcast / InPlayer Details</b>
+            </h2>
+            <p>
+              <div>
+                <b>Where and how do I watch the live event?</b>
+              </div>
+              To watch the live event, you will need to create an account and
+              make a purchase from the homepage of this site.
+            </p>
+
+            <p>
+              <div>
+                <b>Will I be able to watch the live event from my location?</b>
+              </div>
+              Yes. The live event is available worldwide.
+            </p>
+
+            <p>
+              <div>
+                <b>How do I create an account?</b>
+              </div>
+              <ul>
+                <li>1. Press the [Buy] button "Buy for $14.99"</li>
+                <li>
+                  2. Login, or Signup with a social account (Facebook, Google,
+                  Twitter), or use an email and password.
+                </li>
+                <li>
+                  3. You will receive an email confirmation for a successfully
+                  created account. To make a purchase, proceed to the next
+                  section.
+                </li>
+              </ul>
+            </p>
+
+            <p>
+              <div>
+                <b>How do I login and watch?</b>
+              </div>
+              <ul>
+                <li>
+                  1. Click on the [Buy] button or on the “Already Have Access”?
+                </li>
+                <li>
+                  2. On the form that appears, enter your login credentials
+                  (Email and Password).
+                </li>
+                <li>3. Click login</li>
+              </ul>
+            </p>
+
+            <p>
+              <div>
+                <b>Is payment on your site secure?</b>
+              </div>
+              Yes! All sensitive data we handle is sent via SSL.
+            </p>
+
+            <p>
+              <div>
+                <b>How do I reset my password?</b>
+              </div>
+              <ul>
+                <li>
+                  1. Navigate to the login form by clicking on the Buy button or
+                  on the Already Have Access Button.
+                </li>
+                <li>
+                  2. Press the Forgot Password button located below the password
+                  field on the login screen.
+                </li>
+                <li>
+                  3. Enter your Email Address and press the Submit button.
+                </li>
+                <li>
+                  4. Leave the tab with the form open. In the new tab, check
+                  your email for a Token – A Token is a code consisting of
+                  numbers and letters which you can use to update your password.
+                </li>
+                <li>
+                  5. Copy and paste the Token in the Token field and type in
+                  your new password. Then click Submit. Your password will be
+                  updated. If you experience issues, please email
+                  support@inplayer.com
+                </li>
+              </ul>
+            </p>
+          </div>
+
+          <div className="mb-50">
+            <h2>
+              <b>Stab High 2.0 is returning to Waco, Texas on June 29</b>
+            </h2>
             <p>
               Last year&rsquo;s greatest performers, including event champ Noa
               Deane, runner-up Chippa Wilson, Big Air winner Eithan Osborne,
@@ -313,11 +403,13 @@ class ResultsPage extends PureComponent {
         </div> */}
 
         <div className="list-container">
-          <div className="video-container" style={{paddingBottom: '0px'}}>
-            <h3 className="headline-title pre-order-title">PRE-ORDER LIVE STREAM</h3>
+          <div className="video-container" style={{ paddingBottom: '0px' }}>
+            <h3 className="headline-title pre-order-title">
+              WATCH THE LIVE STREAM
+            </h3>
           </div>
 
-          <div className="video-container" style={{paddingTop: '0px'}}>
+          <div className="video-container" style={{ paddingTop: '0px' }}>
             <div id="inplayer-67120" className="inplayer-paywall" />
             {/* <iframe
               src="https://www.youtube.com/embed/r6pDrY8ZQsE"
