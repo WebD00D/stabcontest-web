@@ -367,9 +367,9 @@ class ResultsPage extends PureComponent {
 
             <p>
               For those who can&rsquo;t make it, Stab High will be broadcast
-              live for $14 (on the day) or $9 if you purchase early, starting at
-              the following global hours on June 29 (or June 30 in Oz): 1 p.m
-              PST; 3 p.m. CST (local Texas time); 4 p.m. EST; 8 a.m. AEST
+              live for $14.99, starting at
+              the following global hours on June 29 (or June 30 in Oz): 12:30 p.m
+              PST; 2:30 p.m. CST (local Texas time); 3:30 p.m. EST; 5:30 a.m. AEST
             </p>
 
             <p>See you there.</p>
