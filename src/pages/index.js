@@ -397,7 +397,7 @@ class ResultsPage extends PureComponent {
 
         <div className="list-container">
           <div className="video-container" style={{ paddingBottom: '0px' }}>
-            <div className="headline-wrap">
+            <div style={{ marginBottom: '12px' }} className="headline-wrap">
               <h3 className="headline-title pre-order-title">
                 WATCH LIVE STREAM
               </h3>
@@ -418,12 +418,7 @@ class ResultsPage extends PureComponent {
             style={{ paddingTop: '0px' }}
           >
             <div className="headline-wrap">
-              <h3
-                className="headline-title pre-order-title"
-                style={{ marginBottom: '12px' }}
-              >
-                LIVE SCORES
-              </h3>
+              <h3 className="headline-title pre-order-title">LIVE SCORES</h3>
             </div>
           </div>
 
