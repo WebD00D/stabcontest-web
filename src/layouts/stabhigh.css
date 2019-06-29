@@ -939,7 +939,7 @@ iframe {
 
 .video-container iframe {
   width: 100%;
-  height: 500px;
+  height: 450px;
   max-width: 800px;
   outline: none;
 }
