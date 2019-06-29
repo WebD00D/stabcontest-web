@@ -418,12 +418,17 @@ class ResultsPage extends PureComponent {
             style={{ paddingTop: '0px' }}
           >
             <div className="headline-wrap">
-              <h3 className="headline-title pre-order-title">LIVE SCORES</h3>
+              <h3
+                className="headline-title pre-order-title"
+                style={{ marginBottom: '12px' }}
+              >
+                LIVE SCORES
+              </h3>
             </div>
           </div>
 
           <div className="video-container" style={{ paddingTop: '0px' }}>
-            <div style={{width: '100%', textAlign: 'center'}}>
+            <div style={{ width: '100%', textAlign: 'center' }}>
               <iframe
                 className="score-iframe"
                 src="https://bsview.s3.amazonaws.com/index.html?event=stab190629y1010"
