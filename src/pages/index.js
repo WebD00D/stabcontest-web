@@ -367,9 +367,9 @@ class ResultsPage extends PureComponent {
 
             <p>
               For those who can&rsquo;t make it, Stab High will be broadcast
-              live for $14.99, starting at
-              the following global hours on June 29 (or June 30 in Oz): 12:30 p.m
-              PST; 2:30 p.m. CST (local Texas time); 3:30 p.m. EST; 5:30 a.m. AEST
+              live for $14.99, starting at the following global hours on June 29
+              (or June 30 in Oz): 12:30 p.m PST; 2:30 p.m. CST (local Texas
+              time); 3:30 p.m. EST; 5:30 a.m. AEST
             </p>
 
             <p>See you there.</p>
@@ -394,29 +394,44 @@ class ResultsPage extends PureComponent {
         <div className="hero">
           <img src={require('../layouts/images/logo_plain_01.png')} />
         </div>
-        {/* <div className="random-monster__3">
-          <img
-            className="rellax"
-            data-rellax-speed="11"
-            src={require('../layouts/images/2x/outline_two-bk@2x.png')}
-          />
-        </div> */}
 
         <div className="list-container">
           <div className="video-container" style={{ paddingBottom: '0px' }}>
-            <h3 className="headline-title pre-order-title">
-              WATCH THE LIVE STREAM
-            </h3>
+            <div className="headline-wrap">
+              <h3 className="headline-title pre-order-title">
+                WATCH LIVE STREAM
+              </h3>
+              <h5 className="headline-sub">
+                12:30pm (PST) | 2:30pm (CDT) | 5:30am (QLD)
+              </h5>
+              <a href="#scores">VIEW SCORES</a>
+            </div>
           </div>
 
           <div className="video-container" style={{ paddingTop: '0px' }}>
             <div id="inplayer-67120" className="inplayer-paywall" />
-            {/* <iframe
-              src="https://www.youtube.com/embed/r6pDrY8ZQsE"
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            /> */}
+          </div>
+
+          <div
+            id="scores"
+            className="video-container"
+            style={{ paddingTop: '0px' }}
+          >
+            <div className="headline-wrap">
+              <h3 className="headline-title pre-order-title">LIVE SCORES</h3>
+            </div>
+          </div>
+
+          <div className="video-container" style={{ paddingTop: '0px' }}>
+            <div style={{width: '100%', textAlign: 'center'}}>
+              <iframe
+                className="score-iframe"
+                src="https://bsview.s3.amazonaws.com/index.html?event=stab190629y1010"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
           </div>
         </div>
 
