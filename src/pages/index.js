@@ -402,10 +402,7 @@ class ResultsPage extends PureComponent {
               <h3 className="headline-title pre-order-title">
                 WATCH LIVE STREAM
               </h3>
-              <h5 className="headline-sub">
-                HEADS UP! WE'LL BE TESTING THE STREAM UP TILL THE EVENT.. <br /> IF YOU
-                SEE AN "ERROR" MESSAGE.. DONT FRET..
-              </h5>
+             
               <h5 className="headline-sub">
                 12:30pm (PST) | 2:30pm (CDT) | 5:30am (QLD)
               </h5>
