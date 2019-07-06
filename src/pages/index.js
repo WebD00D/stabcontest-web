@@ -75,26 +75,27 @@ class ResultsPage extends PureComponent {
           className="cta-bar"
         >
           <div className="cta-text">
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
-            <div>TICKETS ON SALE NOW - JUNE 29 2019</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
+            <div>CONGRATS CHIPPA!</div>
           </div>
         </a>
         <div
@@ -375,22 +376,7 @@ class ResultsPage extends PureComponent {
             <p>See you there.</p>
           </div>
         </div>
-        <div className="btn-wrappers">
-          <a
-            href="/#inplayer-67120"
-            className="btn-primary hide-mobile"
-            style={{ marginRight: '12px' }}
-          >
-            LIVESTREAM TICKETS
-          </a>
-          <a
-            href="https://www.eventbrite.com.au/e/stab-high-an-invitational-world-class-surfing-event-in-texas-tickets-59865637734"
-            className="btn-primary hide-mobile"
-            target="_blank"
-          >
-            EVENT TICKETS
-          </a>
-        </div>
+       
         <div className="hero">
           <img src={require('../layouts/images/logo_plain_01.png')} />
         </div>
@@ -400,13 +386,9 @@ class ResultsPage extends PureComponent {
             <div style={{ marginBottom: '12px' }} className="headline-wrap">
             
               <h3 className="headline-title pre-order-title">
-                WATCH LIVE STREAM
+                WATCH ON DEMAND
               </h3>
              
-              <h5 className="headline-sub">
-                12:30pm (PST) | 2:30pm (CDT) | 5:30am (QLD)
-              </h5>
-              <a href="#scores">VIEW SCORES</a>
             </div>
           </div>
 
@@ -414,7 +396,7 @@ class ResultsPage extends PureComponent {
             <div id="inplayer-67120" className="inplayer-paywall" />
           </div>
 
-          <div
+          {/* <div
             id="scores"
             className="video-container"
             style={{ paddingTop: '0px' }}
@@ -434,7 +416,7 @@ class ResultsPage extends PureComponent {
                 allowFullScreen
               />
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div
@@ -522,13 +504,13 @@ class ResultsPage extends PureComponent {
         <div className="list-container">
           <SectionItems />
         </div>
-        <a
+        {/* <a
           target="_blank"
           href="https://www.eventbrite.com.au/e/stab-high-an-invitational-world-class-surfing-event-in-texas-tickets-59865637734"
           className="buy-tickets-mobile"
         >
           EVENT TICKETS
-        </a>
+        </a> */}
         {/* <a
           target="_blank"
           href="https://stabmagazine.cleeng.com/stab-high-a-surf-contest-mostly-in-the-air/E976314967_US?_ga=2.24139570.963626054.1536793788-1585989039.1534795076"
